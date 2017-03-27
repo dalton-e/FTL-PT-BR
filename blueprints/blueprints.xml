@@ -1896,13 +1896,13 @@
 
 
 <weaponBlueprint name="BOMB_LOCK"> 
-	<type>BOMB</type>
+	<type>BOMBA</type>
 	<tip>tip_bombs</tip>
-	<title>Crystal Lockdown Bomb</title>
-	<short>Lock B.</short>
+	<title>Bomba Confinamento de Cristal</title>
+	<short>B. de Confinamento</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive that does no damage but creates a dense wall preventing movement in or out of the room. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; does no damage; prevents movement in or out of room. Can target your own ship.</tooltip>
+	<desc>Explosivo que se auto-teleporta, não causa dano mas cria uma densa parede que previne entrada ou saída da sala. Pode ser disparado em sua própria nave.</desc>
+	<tooltip>Arma explosiva; necessita de um míssil; não causa dano; previne entrada ou saída da sala. Pode ser disparada em sua própria nave.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>0</persDamage>
@@ -1941,12 +1941,12 @@
 -->
 
 <weaponBlueprint name="CRYSTAL_BURST_1">  
-	<type>MISSILES</type>
-	<title>Crystal Burst Mark I</title>
-	<short>Crystal B. I</short>
+	<type>MÍSSEIS</type>
+	<title>Explosão de Cristal Modelo I</title>
+	<short>Exp. de Cristal I</short>
 	<tip>tip_crystal</tip>
-	<desc>Modified projectile weapon that fires 2 shield piercing crystals. </desc>
-	<tooltip>Pierces 1 shield; fires 2 crystals that deal 1 damage each.</tooltip>
+	<desc>Arma de projétil modificada que dispara 2 cristais que penetram escudo. </desc>
+	<tooltip>Penetra 1 escudo; dispara 2 cristais que causam 1 de dano cada.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>1</sp>
@@ -1982,11 +1982,11 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="CRYSTAL_BURST_2">  
-	<type>MISSILES</type>
-	<title>Crystal Burst Mark II</title>
-	<short>Crystal B. II</short>
-	<desc>Modified projectile weapon that fires 3 shield piercing crystals. </desc>
-	<tooltip>Pierces 1 shield; fires 3 crystals that deal 1 damage each.</tooltip>
+	<type>MÍSSEIS</type>
+	<title>Explosão de Cristal Modelo II</title>
+	<short>Exp. de Cristal II</short>
+	<desc>Arma de projétil modificada que dispara 3 cristais que penetram escudo. </desc>
+	<tooltip>Penetra 1 escudo; dispara 3 cristais que causam 1 de dano cada.</tooltip>
 	<damage>1</damage>
 	<tip>tip_crystal</tip>
 	<shots>3</shots>
@@ -2023,12 +2023,12 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="CRYSTAL_HEAVY_1">  
-	<type>MISSILES</type>
+	<type>MÍSSEIS</type>
 	<tip>tip_crystal</tip>
-	<title>Heavy Crystal Mark I</title>
-	<short>Crystal H. I</short>
-	<desc>Modified projectile weapon that fires a shield piercing large crystal. </desc>
-	<tooltip>Pierces 1 shield; fires 1 crystal that deals 2 damage.</tooltip>
+	<title>Cristal Pesado Modelo I</title>
+	<short>C. Pesado I</short>
+	<desc>Arma de projétil modificada que dispara um enorme cristal que penetra escudo. </desc>
+	<tooltip>Penetra 1 escudo; dispara 1 cristal que causa 2 de dano.</tooltip>
 	<damage>2</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -2065,12 +2065,12 @@
 
 
 <weaponBlueprint name="CRYSTAL_HEAVY_2">  
-	<type>MISSILES</type>
+	<type>MÍSSEIS</type>
 	<tip>tip_crystal</tip>
-	<title>Heavy Crystal Mark II</title>
-	<short>Crystal H. II</short>
-	<desc>Modified projectile weapon that fires a shield piercing large crystal.</desc>
-	<tooltip>Pierces 1 shield; fires 1 crystal that deals 4 damage and causes a hull breach.</tooltip>
+	<title>Cristal Pesado Modelo II</title>
+	<short>C. Pesado II</short>
+	<desc>Arma de projétil modificada que dispara um enorme cristal que penetra escudo.</desc>
+	<tooltip>Penetra 1 escudo; dispara 1 cristal que causa 4 de dano e cria ruptura na fuselagem.</tooltip>
 	<damage>4</damage>
 	<shots>1</shots>
 	<sp>1</sp>
@@ -2113,28 +2113,28 @@
 -->
 
 <crewBlueprint name="battle">
-	<desc>Dummy blueprint needed now.</desc>
+	<desc>Esquema temporário necessário por enquanto.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
-	<title>Battle</title>
-	<short>Battle</short>
+	<title>Batalha</title>
+	<short>Batalha</short>
 	<rarity>0</rarity>
 	<powerList/>
 </crewBlueprint>
 
 <crewBlueprint name="repair">
-	<desc>Dummy blueprint needed now.</desc>
+	<desc>Esquema temporário necessário por enquanto.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
-	<title>Repair</title>
-	<short>Repair</short>
+	<title>Reparo</title>
+	<short>Reparo</short>
 	<rarity>0</rarity>
 	<powerList/>
 </crewBlueprint>
 
 <weaponBlueprint name="DRONE_LASER"> 
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>Laser de Drone</title>
 	<damage>1</damage>
 	<shots>1</shots>
 	<fireChance>1</fireChance>
@@ -2163,7 +2163,7 @@
 
 <weaponBlueprint name="DRONE_LASER_2"> 
 	<type>LASER</type>
-	<title>Drone Laser 2</title>
+	<title>Laser de Drone 2</title>
 	<damage>1</damage>
 	<shots>1</shots>
 	<fireChance>1</fireChance>
@@ -2192,11 +2192,11 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="DRONE_BEAM">
-	<type>BEAM</type>
+	<type>FEIXE</type>
 	<tip>tip_beams</tip>
-	<title>Drone Beam</title>
-	<short>Drone Beam</short>
-	<desc>'Baby's first beam'; Extremely cheap and weak beam weapon.</desc>
+	<title>Feixe de Drone</title>
+	<short>Feixe de Drone</short>
+	<desc>'Primeiro feixe da criança'; Arma de feixe extremamente barata e fraca.</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>1</fireChance>
