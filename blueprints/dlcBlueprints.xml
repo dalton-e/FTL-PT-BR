@@ -92,8 +92,8 @@
 ------------------------------->
 
 <augBlueprint name="O2_MASKS"> 
-	<title>Emergency Respirators</title>
-	<desc>Crew take half damage from low oxygen.</desc>
+	<title>Respirador de Emergência</title>
+	<desc>A tripulação sofre metade do dano por pouco oxigênio.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>2</rarity>
@@ -102,8 +102,8 @@
 </augBlueprint>
 
 <augBlueprint name="EXPLOSIVE_REPLICATOR"> 
-	<title>Explosive Replicator</title>
-	<desc>Missile based weapons have a 50 percent chance of not using a missile.</desc>
+	<title>Replicador de Explosivo</title>
+	<desc>Armas que usam mísseis têm 50% de chance de não gastar o míssil.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -112,8 +112,8 @@
 </augBlueprint>
 
 <augBlueprint name="FIRE_EXTINGUISHERS"> 
-	<title>Fire Suppression</title>
-	<desc>Automatically put out fires throughout the ship.</desc>
+	<title>Supressão de Incêndio</title>
+	<desc>Automaticamente extingue incêndios na nave.</desc>
 	<cost>65</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -122,8 +122,8 @@
 </augBlueprint>
 
 <augBlueprint name="FLEET_DISTRACTION">
-	<title>Distraction Buoys</title>
-	<desc>Leaves a false signal at sector start to delay Rebels 1 jump.</desc>
+	<title>Boias de Distração</title>
+	<desc>Emite um falso sinal no início do setor para retardar os Rebeldes por 1 salto.</desc>
 	<cost>55</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -132,8 +132,8 @@
 </augBlueprint>
 
 <augBlueprint name="TELEPORT_HEAL">
-	<title>Reconstructive Teleport</title>
-	<desc>Crew gets fully healed by teleportation.</desc>
+	<title>Teleportador Reconstrutivo</title>
+	<desc>A tripulação se cura totalmente durante a teleportação.</desc>
 	<cost>70</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -142,8 +142,8 @@
 </augBlueprint>
 
 <augBlueprint name="BATTERY_BOOSTER"> 
-	<title>Battery Charger</title>
-	<desc>Backup Battery's lock time is halved.</desc>
+	<title>Carregador de Bateria</title>
+	<desc>O tempo de reuso da Bateria de Backup é reduzido pela metade.</desc>
 	<cost>40</cost>
 	<bp>8</bp>
 	<rarity>2</rarity>
@@ -152,8 +152,8 @@
 </augBlueprint>
 
 <augBlueprint name="DEFENSE_SCRAMBLER"> 
-	<title>Defense Scrambler</title>
-	<desc>Prevents enemy defense drones from targeting anything.</desc>
+	<title>Ofuscador de Defesa</title>
+	<desc>Previne que os drones de defesa inimigo atirem em qualquer coisa.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>4</rarity>
@@ -162,8 +162,8 @@
 </augBlueprint>
 
 <augBlueprint name="BACKUP_DNA"> 
-	<title>Backup DNA Bank</title>
-	<desc>Your crew is safe in clone storage even if the system is off or broken.</desc>
+	<title>Banco de Backup de DNA</title>
+	<desc>Sua tripulação fica a salvo no armazenamento de clones mesmo se o sistema estiver desativado ou quebrado.</desc>
 	<cost>40</cost> <!-- Was 35-->
 	<bp>8</bp>
 	<rarity>2</rarity>
@@ -172,8 +172,8 @@
 </augBlueprint>
 
 <augBlueprint name="HACKING_STUN">
-	<title>Hacking Stun</title>
-	<desc>All crew inside a room during a Hacking Pulse will be stunned for the duration.</desc>
+	<title>Atordoamento de Hacking</title>
+	<desc>Toda a tripulação dentro de uma sala durante um Pulso Hacker será atordoada pela duração do pulso.</desc>
 	<cost>60</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
@@ -181,8 +181,8 @@
 </augBlueprint>
 
 <augBlueprint name="LIFE_SCANNER"> 
-	<title>Lifeform Scanner</title>
-	<desc>Detects the location of any life forms, even when sensors don't function.</desc>
+	<title>Scanner Vital</title>
+	<desc>Detecta a localização de qualquer forma de vida, mesmo quando os sensores não funcionam.</desc>
 	<cost>40</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -191,8 +191,8 @@
 </augBlueprint>
 
 <augBlueprint name="ZOLTAN_BYPASS"> 
-	<title>Zoltan Shield Bypass</title>
-	<desc>Allows crew/bomb teleportation and mind control to work through Super Shields.</desc>
+	<title>***Zoltan Shield Bypass</title>
+	<desc>Permite que o teleporte de tripulação/bombas e o controle de mente funcionem através dos Super Escudos.</desc>
 	<cost>55</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -203,15 +203,15 @@
 <!------------------------------------------>
 
 <crewBlueprint name="anaerobic">
-	<desc>These anaerobic beings seem friendly enough.</desc>
+	<desc>Estes seres anaeróbicos parecem bem amigáveis.</desc>
 	<title>Lanius</title>
 	<short>Lanius</short>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>Drains oxygen from rooms.</power>
-		<power>Slow movement but no damage from lack of oxygen.</power>
+		<power>Suga o oxigênio das salas.</power>
+		<power>Movimento lerdo mas não sofre dano pela falta de oxigênio.</power>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - color -->
@@ -228,9 +228,9 @@
 
 
 <systemBlueprint name="clonebay">
-	<type>clonebay</type>
-	<title>Clone Bay</title>
-	<desc>Automatically clones dead crew with skill penalty. Taking advantage of micro-cloning, crew heals partially every jump. Jump heal is passive and requires no power.</desc>
+	<type>sala_clonagem</type>
+	<title>Sala de Clonagem</title>
+	<desc>Automaticamente clona um membro morto com penalidade de habilidade. Usando a micro-clonagem, a tripulação se cura parcialmente a cada salto. A cura é passiva e não necessita de energia.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
 	<rarity>1</rarity>
@@ -244,7 +244,7 @@
 <systemBlueprint name="hacking">
 	<type>hacking</type>
 	<title>Hacking</title>
-	<desc>Targets a single system, locking its doors and granting the ability to temporarily disable or disrupt it. Requires drone part to launch.</desc>
+	<desc>Atinge um único sistema, travando suas portas e concedendo a habilidade de temporariamente desabilitá-lo ou desordená-lo. Necessita de uma peça de drone para lançar.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
 	<rarity>1</rarity>
@@ -256,9 +256,9 @@
 </systemBlueprint>
 
 <systemBlueprint name="battery">
-	<type>battery</type>
-	<title>Backup Battery</title>
-	<desc>Provides a 30 second power boost to your Reactor. Upgrading increases the boost amount.</desc>
+	<type>bateria</type>
+	<title>Bateria de Backup</title>
+	<desc>Fornece por 30 segundos um reforço de energia para o seu Reator. Melhorar o sistema aumenta a quantidade de energia.</desc>
 	<startPower>1</startPower>
 	<maxPower>2</maxPower>
 	<rarity>1</rarity>
@@ -269,9 +269,9 @@
 </systemBlueprint>
 
 <systemBlueprint name="mind">
-	<type>mind</type>
-	<title>Mind Control</title>
-	<desc>Temporarily turn enemies into allies.</desc>
+	<type>mente</type>
+	<title>Controle de Mente</title>
+	<desc>Temporariamente transforma os inimigos em aliados.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
 	<rarity>1</rarity>
