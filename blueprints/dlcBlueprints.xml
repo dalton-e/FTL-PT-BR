@@ -286,12 +286,12 @@
 <!------------------------------------------>
 
 <droneBlueprint name="BOARDER_ION">
-	<type>BOARDER</type>
+	<type>INVASOR</type>
 	<tip>tip_boarding</tip>
 	<locked>1</locked>
-	<title>Ion Intruder Drone</title>
-	<short>I. Intruder</short>
-	<desc>Breaches through the enemy hull and randomly ionizes systems.</desc>
+	<title>Drone Intruso de Íon</title>
+	<short>Int. de Íon</short>
+	<desc>Penetra pela fuselagem inimiga e ioniza sistemas aleatoriamente.</desc>
 	<power>3</power>
 	<speed>18</speed>
 	<cost>65</cost>
@@ -302,9 +302,9 @@
 <droneBlueprint name="DRONE_HACKING">
 	<type>HACKING</type>
 	<locked>1</locked>
-	<title>Hacking Drone</title>
+	<title>Drone de Hacking</title>
 	<short>Hacking</short>
-	<desc>Should never see this.</desc>
+	<desc>Nunca deveria ver isso.</desc>
 	<power>1</power>
 	<speed>28</speed>
 	<cost>70</cost>
@@ -313,13 +313,13 @@
 </droneBlueprint>
 
 <droneBlueprint name="ANTI_DRONE">
-	<type>DEFENSE</type>
+	<type>DEFESA</type>
 	<tip>tip_defense</tip>
 	<target>DRONES</target>
 	<level>1</level>
-	<title>Anti-Combat Drone</title>
+	<title>Drone Anti-Combate</title>
 	<short>Anti-Drone</short>
-	<desc>Stuns combat drones attacking your ship.</desc>
+	<desc>Atordoa os drones de combate que atacam sua nave.</desc>
 	<power>1</power>
 	<cooldown>7000</cooldown> <!--- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>0</dodge>
@@ -336,7 +336,7 @@
 
 <weaponBlueprint name="ANTI_DRONE_ION"> 
 	<type>LASER</type>
-	<title>Drone Laser</title>
+	<title>Laser de Drone</title>
 	<damage>0</damage>
 	<shots>1</shots>
 	<ion>1</ion>
@@ -370,10 +370,10 @@
 
 
 <weaponBlueprint name="DRONE_BEAM2">
-	<type>BEAM</type>
-	<title>Mini Beam</title>
-	<short>Mini Beam</short>
-	<desc>'Baby's first beam'; Extremely cheap and weak beam weapon.</desc>
+	<type>FEIXE</type>
+	<title>Mini-Feixe</title>
+	<short>Mini-Feixe</short>
+	<desc>'Primeiro feixe da criança'; Arma de feixe extremamente barata e fraca.</desc>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>1</fireChance>
@@ -389,11 +389,11 @@
 	<weaponArt>beam_1</weaponArt> 
 </weaponBlueprint>
 <droneBlueprint name="COMBAT_BEAM_2">
-	<type>COMBAT</type>
-	<title>Anti-Ship Beam Drone II</title>
+	<type>COMBATE</type>
+	<title>Drone de Feixe Anti-Nave II</title>
 	<tip>tip_combat</tip>
-	<short>Beam II</short>
-	<desc>Combat drone that repeatedly attacks with a larger beam weapon</desc>
+	<short>Feixe II</short>
+	<desc>Drone de combate que ataca repetidamente com uma grande arma de feixe.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!--- Doesn't effect combat drone -->
 	<dodge>0</dodge>
@@ -407,10 +407,10 @@
 </droneBlueprint>
 
 <weaponBlueprint name="DRONE_FIREBEAM">
-	<type>BEAM</type>
-	<title>Fire Beam</title>
-	<short>Fire Beam</short>
-	<desc>Fire beam.</desc>
+	<type>FEIXE</type>
+	<title>Feixe de Fogo</title>
+	<short>Feixe de Fogo</short>
+	<desc>Feixe de fogo.</desc>
 	<damage>0</damage>
 	<sp>0</sp>
 	<fireChance>9</fireChance>
@@ -426,11 +426,11 @@
 	<weaponArt>beam_1</weaponArt> 
 </weaponBlueprint>
 <droneBlueprint name="COMBAT_FIRE">
-	<type>COMBAT</type>
+	<type>COMBATE</type>
 	<tip>tip_combat</tip>
-	<title>Anti-Ship Fire Drone</title>
-	<short>Fire</short>
-	<desc>Combat drone that repeatedly attacks with a small beam weapon that lights rooms on fire.</desc>
+	<title>Drone de Fogo Anti-Nave</title>
+	<short>Fogo</short>
+	<desc>Drone de combate que ataca repetidamente com uma pequena arma de feixe que causa incêndios.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!--- Doesn't effect combat drone -->
 	<dodge>0</dodge>
@@ -446,12 +446,12 @@
 
 
 <droneBlueprint name="DRONE_SHIELD">
-	<type>SHIELD</type>
+	<type>ESCUDO</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger</title>
-	<short>Shield</short>
-	<desc>Creates single Supershield barrier periodically.</desc>
+	<title>Sobrecarregador de Escudo</title>
+	<short>Escudo</short>
+	<desc>Periodicamente cria uma barreira de Superescudo.</desc>
 	<power>3</power>
 	<cooldown>15000</cooldown> <!--- cooldown for recharge, in ms -->
 	<dodge>0</dodge>
@@ -465,12 +465,12 @@
 
 
 <droneBlueprint name="DRONE_SHIELD_PLAYER">
-	<type>SHIELD</type>
+	<type>ESCUDO</type>
 	<level>1</level>
 	<tip>tip_defense</tip>
-	<title>Shield Overcharger</title>
-	<short>Shield+</short>
-	<desc>Creates single Supershield barrier periodically. This modified schematic requires 1 less power.</desc>
+	<title>Sobrecarregador de Escudo</title>
+	<short>Escudo+</short>
+	<desc>Periodicamente cria uma barreira de Superescudo. Esse projeto modificado necessidade de 1 de energia a menos.</desc>
 	<power>2</power>
 	<cooldown>15000</cooldown> <!--- cooldown for recharge, in ms -->
 	<dodge>0</dodge>
@@ -483,13 +483,13 @@
 </droneBlueprint>
 
 <weaponBlueprint name="BOMB_HEAL_SYSTEM">
-	<type>BOMB</type>
+	<type>BOMBA</type>
 	<tip>tip_repair_bomb</tip>
-	<title>Repair Burst</title>
-	<short>Repair B.</short>
+	<title>Explosão de Reparo</title>
+	<short>Exp. de Reparo</short>
 	<locked>1</locked>
-	<desc>Self-teleporting unit that floods a room with nano-bots capable of completely repairing all system damage.</desc>
-	<tooltip>Bomb weapon; requires a Missile; fully repairs system. Can target your own ship.</tooltip>
+	<desc>Unidade que se auto-teleporta e preenche uma sala com nano-robôs capazes de reparar completamente todo dano ao sistema.</desc>
+	<tooltip>Arma explosiva; necessita de um míssil; completamente repara um sistema. Pode ser disparada em sua própria nave.</tooltip>
 	<damage>0</damage>
 	<sysDamage>-8</sysDamage>
 	<persDamage>0</persDamage>
