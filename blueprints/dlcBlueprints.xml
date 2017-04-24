@@ -517,14 +517,14 @@
 
 
 <weaponBlueprint name="SHOTGUN_PLAYER">
-	<type>BURST</type>
+	<type>EXPLOSÃO</type>
 	<drone_targetable>1</drone_targetable>
-	<flavorType>Physical Projectile Blast</flavorType>
-	<title>Adv. Flak Gun</title>
-	<short>Adv. Flak</short>
+	<flavorType>Disparo de Projétil Físico</flavorType>
+	<title>Canhão Flak Avançado</title>
+	<short>Flak Avançado</short>
 	<tip>tip_flak</tip>
-	<desc>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
+	<desc>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano. Bom para acabar com escudos mas difícil de mirar.</desc>
+	<tooltip>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano.</tooltip>
 	<radius>40</radius>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -565,14 +565,14 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="SHOTGUN">
-	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<type>EXPLOSÃO</type>
+	<flavorType>Disparo de Projétil Físico</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark I</title>
+	<title>Canhão Flak Modelo I</title>
 	<tip>tip_flak</tip>
 	<short>Flak I</short>
-	<desc>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
+	<desc>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano. Bom para acabar com escudos mas difícil de mirar.</desc>
+	<tooltip>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano.</tooltip>
 	<radius>42</radius>
 	<damage>1</damage>
 	<shots>1</shots>
@@ -613,13 +613,13 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="ARTILLERY_FED_C">
-	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<type>EXPLOSÃO</type>
+	<flavorType>Disparo de Projétil Físico</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Artillery</title>
-	<short>Flak A.</short>
-	<desc>Powers a slow, high-powered flak gun that fires seven projectiles. More power means faster cooldown.</desc>
-	<tooltip>Artillery: Flak gun that automatically fires 7 projectiles.</tooltip>
+	<title>Artilharia Flak</title>
+	<short>Art. Flak</short>
+	<desc>Carrega um poderoso e lento canhão flak que dispara sete projéteis. Mais energia significa tempo de recarga reduzido.</desc>
+	<tooltip>Artilharia: Canhão flak que dispara automaticamente sete projéteis.</tooltip>
 	<radius>35</radius>
 	<damage>1</damage>
 	<spin>720</spin>
@@ -660,14 +660,14 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="SHOTGUN_2">
-	<type>BURST</type>
-	<flavorType>Physical Projectile Blast</flavorType>
+	<type>EXPLOSÃO</type>
+	<flavorType>Disparo de Projétil Físico</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Flak Gun Mark II</title>
+	<title>Canhão Flak Modelo II</title>
 	<short>Flak II</short>
 	<tip>tip_flak</tip>
-	<desc>Fires a blast of debris across a random area doing up to 7 damage. Good at taking down shields but hard to aim.</desc>
-	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
+	<desc>Dispara uma rajada de escombros em uma área aleatória causando até 7 de dano. Bom para acabar com escudos mas difícil de mirar.</desc>
+	<tooltip>Dispara uma rajada de escombros em uma área aleatória causando até 7 de dano.</tooltip>
 	<radius>55</radius>
 	<damage>1</damage>
 	<spin>720</spin>
@@ -708,14 +708,14 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="MISSILE_CHARGEGUN">
-	<type>BURST</type>
-	<flavorType>Charge Blast Missile</flavorType>
+	<type>EXPLOSÃO</type>
+	<flavorType>Míssil Explosivo de Carga</flavorType>
 	<drone_targetable>1</drone_targetable>
-	<title>Swarm Missiles</title>
+	<title>Mísseis de Enxame</title>
 	<tip>tip_charge</tip>
-	<short>Swarm</short>
-	<desc>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads.</desc>
-	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
+	<short>Enxame</short>
+	<desc>Dado tempo suficiente para carregar, o 'Enxame' pode replicar múltiplos mísseis.</desc>
+	<tooltip>Carrega até 3 mísseis que penetram escudos. Entretanto, sempre gasta apenas um míssil.</tooltip>
 	<radius>31</radius>  <!-- was 34-->
 	<missiles>1</missiles>
 	<damage>1</damage>
@@ -756,11 +756,11 @@
 
 <weaponBlueprint name="LASER_CHAINGUN">  <!-- 1 shot 1power-->
 	<type>LASER</type>
-	<title>Chain Burst Laser</title>
-	<short>Chain L.</short>
+	<title>Laser de Explosão Encadeado</title>
+	<short>L. Encadeado.</short>
 	<tip>tip_chain_laser</tip>
-	<desc>This dual shot laser decreases in cooldown the more it fires. After 3 volleys it only takes 7 seconds to charge.</desc>
-	<tooltip>Fires two lasers that deal 1 damage each. Cooldown drops the more it fires.</tooltip>
+	<desc>Esse laser duplo diminui seu tempo de recarga a cada disparo. Depois de 3 rajadas leva apenas 7 segundos para recarregar.</desc>
+	<tooltip>Dispara dois lasers que causam 1 de dano cada. Tempo de recarga diminui a cada disparo.</tooltip>
 	<damage>1</damage>
 	<shots>2</shots>
 	<sp>0</sp>
@@ -801,11 +801,11 @@
 
 <weaponBlueprint name="LASER_CHAINGUN_2">  <!-- 1 shot 1power-->
 	<type>LASER</type>
-	<title>Chain Vulcan</title>
+	<title>Vulcan Encadeado</title>
 	<short>Vulcan</short>
 	<tip>tip_chain_laser</tip>
-	<desc>This laser weapon takes a long time to warm up. Each time it fires it decreases the cooldown, eventually able to take down any amount of shields.</desc>
-	<tooltip>Cooldown drops the more it fires.</tooltip>
+	<desc>Essa arma de laser leva muito tempo para aquecer. Cada vez que dispara diminui seu tempo de recarga, cedo ou tarde é capaz de acabar com qualquer quantidade de escudos.</desc>
+	<tooltip>Tempo de recarga diminui a cada disparo.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -847,11 +847,11 @@
 
 <weaponBlueprint name="ION_CHAINGUN">
 	<type>LASER</type>
-	<title>Chain Ion</title>
-	<short>Chain I.</short>
+	<title>Íon Encadeado</title>
+	<short>I. Encadeado</short>
 	<locked>1</locked>
 	<tip>tip_chain_ion</tip>
-	<desc>This weapon's Ion damage increases each time it fires to a max of 4.</desc>
+	<desc>O dano iônico dessa arma aumenta a cada disparo até um total de 4.</desc>
 	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
