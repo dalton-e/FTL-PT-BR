@@ -852,7 +852,7 @@
 	<locked>1</locked>
 	<tip>tip_chain_ion</tip>
 	<desc>O dano iônico dessa arma aumenta a cada disparo até um total de 4.</desc>
-	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
+	<tooltip>Dispara uma única onda que causa 1 de dano iônico. Pode atingir e desativar escudos e sistemas.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<speed>30</speed>
@@ -898,11 +898,11 @@
 
 <weaponBlueprint name="LASER_CHARGEGUN_PLAYER"> 
 	<type>LASER</type>
-	<title>Laser Charger</title>
-	<short>Charge L</short>
+	<title>Laser de Carga</title>
+	<short>L. de Carga</short>
 	<tip>tip_charge</tip>
-	<desc>This laser weapon can charge two times, giving it an additional projectile. This improved version only requires 1 power.</desc>
-	<tooltip>Fires more shots the more it charges, up to a max of 2.</tooltip>
+	<desc>Essa arma de laser pode carregar duas vezes, ganhando um projétil adicional. Esta versão melhorada necessita de apenas 1 de energia.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 2.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -938,11 +938,11 @@
 
 <weaponBlueprint name="LASER_CHARGEGUN"> 
 	<type>LASER</type>
-	<title>Laser Charger</title>
-	<short>Charge L</short>
+	<title>Laser de Carga</title>
+	<short>L. de Carga</short>
 	<tip>tip_charge</tip>
-	<desc>This laser weapon can charge two times, giving it an additional projectile.</desc>
-	<tooltip>Fires more shots the more it charges, up to a max of 2.</tooltip>
+	<desc>Essa arma de laser pode carregar duas vezes, ganhando um projétil adicional.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 2.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -979,11 +979,11 @@
 
 <weaponBlueprint name="LASER_CHARGEGUN_2"> 
 	<type>LASER</type>
-	<title>Laser Charger</title>
-	<short>Charge II</short>
+	<title>Laser de Carga</title>
+	<short>L. de Carga II</short>
 	<tip>tip_charge</tip>
-	<desc>This laser weapon can charge multiple times, giving it additional projectiles.</desc>
-	<tooltip>Fires more shots the more it charges, up to a max of 4.</tooltip>
+	<desc>Essa arma de laser pode carregar várias vezes, ganhando projéteis adicionais.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 4.</tooltip>
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
@@ -1020,11 +1020,11 @@
 
 <weaponBlueprint name="ION_CHARGEGUN"> 
 	<type>LASER</type>
-	<title>Ion Charger</title>
-	<short>Charge I.</short>
+	<title>Íon de Carga</title>
+	<short>Í. de Carga</short>
 	<tip>tip_charge</tip>
-	<desc>This ion weapon can charge multiple times, giving it additional projectiles.</desc>
-	<tooltip>Fires more shots the more it charges, up to a max of 3.</tooltip>
+	<desc>Essa arma de íon pode carregar várias vezes, ganhando projéteis adicionais.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 3.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<shots>1</shots>
@@ -1066,11 +1066,11 @@
 <weaponBlueprint name="ION_STUN">
 	<type>LASER</type>
 	<tip>tip_ion</tip>
-	<title>Ion Stunner</title>
-	<short>Ion Stunner</short>
+	<title>Íon Atordoador</title>
+	<short>Íon Atordoador</short>
 	<locked>1</locked>
-	<desc>Ion weapons can disable systems without causing hull damage. This ion weapon stuns crew inside the room for 5 seconds.</desc>
-	<tooltip>Fires a single blast that does 1 ion damage. Can hit and disable shields as well as systems.</tooltip>
+	<desc>Armas de íon podem desativar sistemas sem causar dano à fuselagem. Essa arma atordoa a tripulação dentro da sala por 5 segundos.</desc>
+	<tooltip>Dispara uma única onda que causa 1 de dano iônico. Pode atingir e desativar escudos e sistemas.</tooltip>
 	<stun>5</stun>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -1109,13 +1109,13 @@
 </weaponBlueprint>
 
 <weaponBlueprint name="BOMB_STUN"> 
-	<type>BOMB</type>
+	<type>BOMBA</type>
 	<tip>tip_bombs</tip>
-	<title>Stun Bomb</title>
-	<short>Stun B.</short>
+	<title>Bomba de Atordoamento</title>
+	<short>B. de Atordoamento</short>
 	<locked>1</locked>
-	<desc>Self-teleporting explosive that does 1 ion damage and stuns all crew inside the room. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; does 1 ion damage. Stuns all crew inside the room. Can target your own ship.</tooltip>
+	<desc>Explosivo que se auto-teleporta, causa 1 de dano iônico e atordoa toda a tripulação dentro da sala. Pode ser disparado em sua própria nave.</desc>
+	<tooltip>Arma explosiva; necessita de um míssil; causa 1 de dano iônico. Atordoa toda a tripulação dentro da sala. Pode ser disparado em sua própria nave.</tooltip>
 	<damage>0</damage>
 	<stun>15</stun>
 	<sysDamage>0</sysDamage>
@@ -1194,10 +1194,10 @@
  -->
 <!-- SHIP ID = ??? -->    
 <shipBlueprint name="PLAYER_SHIP_ANAEROBIC" layout="anaerobic_cruiser" img="anaerobic_cruiser">
-	<class>Lanius Cruiser</class>
+	<class>Cruzador Lanius</class>
 	<name>Kruos</name>
-	<unlock>Entice the Lanius with a valuable fleet, unlock 4 ships in addition to the Kestrel Cruiser to unlock this ship.</unlock>
-	<desc>The sharp knife-like structures make Lanius ships a sight to behold. This cruiser was adapted to support the other races of the Federation.</desc>
+	<unlock>Fascine os Lanius com uma frota valorosa, destrave 4 naves além do Cruzador Kestrel Cruiser para habilitar esta nave.</unlock>
+	<desc>As estruturas afiadas como uma lâmina tornam as naves Lanius dignas de admiração. Esse cruzador foi adaptado para suportar as outras raças da Federação.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true" img="room_pilot_4">  
 			<slot>
@@ -1279,10 +1279,10 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_ANAEROBIC_2" layout="anaerobic_cruiser_2" img="anaerobic_cruiser_2">
-	<class>Lanius Cruiser</class>
+	<class>Cruzador Cruiser</class>
 	<name>The Shrike</name>
-	<unlock>Complete 2/3 of the Lanius Cruiser Achievements to unlock this ship.</unlock>
-	<desc>The racial ability of the Lanius make them fearsome combatants in small quarters. Combine that with a Mind Control system and this ship is a force to be reckoned with.</desc>
+	<unlock>Complete 2/3 das Conquistas do Cruzador Lanius Cruiser para destravar esta nave.</unlock>
+	<desc>A habilidade racial dos Lanius os tornam temíveis combatentes em salas fechadas. Combine isso com um sistema de Controle de Mente e essa nave é uma força para se levar em conta.</desc>
 	<systemList>
 		<pilot power="1" room="9" start="true">
 			<slot>
@@ -1459,7 +1459,7 @@ ANAEROBIC ENEMY SHIPS  - AUTOBLUEPRINT
   --------------------->
  
   <shipBlueprint name="ANAEROBIC_SCOUT" layout="anaerobic_scout" img="anaerobic_scout">
-	<class>Lanius Scout</class>
+	<class>Batedor Lanius</class>
 	<maxSector>7</maxSector>
 	<systemList>
 		<pilot power="1"max="3" room="1"/>
@@ -1482,7 +1482,7 @@ ANAEROBIC ENEMY SHIPS  - AUTOBLUEPRINT
 
 
   <shipBlueprint name="ANAEROBIC_BOMBER" layout="anaerobic_bomber" img="anaerobic_bomber">
-	<class>Lanius Bomber</class>
+	<class>Bombardeador Lanius</class>
 	<minSector>3</minSector>
 	<systemList>
 		<pilot power="1"max="3" room="3"/>
