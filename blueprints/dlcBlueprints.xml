@@ -191,7 +191,7 @@
 </augBlueprint>
 
 <augBlueprint name="ZOLTAN_BYPASS"> 
-	<title>***Zoltan Shield Bypass</title>
+	<title>Atravessador de Escudo Zoltan</title>
 	<desc>Permite que o teleporte de tripulação/bombas e o controle de mente funcionem através dos Super Escudos.</desc>
 	<cost>55</cost>
 	<bp>8</bp>
