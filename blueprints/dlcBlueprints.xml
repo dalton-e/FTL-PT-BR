@@ -470,7 +470,7 @@
 	<tip>tip_defense</tip>
 	<title>Sobrecarregador de Escudo</title>
 	<short>Escudo+</short>
-	<desc>Periodicamente cria uma barreira de Superescudo. Esse projeto modificado necessidade de 1 de energia a menos.</desc>
+	<desc>Periodicamente cria uma barreira de Superescudo. Esse projeto modificado necessita de 1 de energia a menos.</desc>
 	<power>2</power>
 	<cooldown>15000</cooldown> <!--- cooldown for recharge, in ms -->
 	<dodge>0</dodge>
@@ -1196,7 +1196,7 @@
 <shipBlueprint name="PLAYER_SHIP_ANAEROBIC" layout="anaerobic_cruiser" img="anaerobic_cruiser">
 	<class>Cruzador Lanius</class>
 	<name>Kruos</name>
-	<unlock>Fascine os Lanius com uma frota valorosa, destrave 4 naves além do Cruzador Kestrel Cruiser para habilitar esta nave.</unlock>
+	<unlock>Fascine os Lanius com uma frota valorosa, destrave 4 naves além do Cruzador Kestrel para habilitar esta nave.</unlock>
 	<desc>As estruturas afiadas como uma lâmina tornam as naves Lanius dignas de admiração. Esse cruzador foi adaptado para suportar as outras raças da Federação.</desc>
 	<systemList>
 		<pilot power="1" room="8" start="true" img="room_pilot_4">  
@@ -1279,9 +1279,9 @@
 
 
 <shipBlueprint name="PLAYER_SHIP_ANAEROBIC_2" layout="anaerobic_cruiser_2" img="anaerobic_cruiser_2">
-	<class>Cruzador Cruiser</class>
-	<name>The Shrike</name>
-	<unlock>Complete 2/3 das Conquistas do Cruzador Lanius Cruiser para destravar esta nave.</unlock>
+	<class>Cruzador Lanius</class>
+	<name>O Picanço</name>
+	<unlock>Complete 2/3 das Conquistas do Cruzador Lanius para destravar esta nave.</unlock>
 	<desc>A habilidade racial dos Lanius os tornam temíveis combatentes em salas fechadas. Combine isso com um sistema de Controle de Mente e essa nave é uma força para se levar em conta.</desc>
 	<systemList>
 		<pilot power="1" room="9" start="true">
