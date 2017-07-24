@@ -1,0 +1,1506 @@
+
+<!---- DLC ITEMS LIST - These items are turned off if the DLC is turned off.
+		Includes any weapons, drones, augments, or aliens 					---> 
+
+<blueprintList name="DLC_ITEMS">
+	<name>BOMB_HEAL_SYSTEM</name>
+	<name>SHOTGUN_PLAYER</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	
+	<name>PDS_SHOT</name>
+	
+	<name>DRONE_HACKING</name>
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD</name>
+	<name>DRONE_SHIELD_PLAYER</name>
+	<name>ANTI_DRONE</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+	
+	<name>anaerobic</name>
+	
+	
+	<name>O2_MASKS</name>
+	<name>EXPLOSIVE_REPLICATOR</name>
+	<name>FIRE_EXTINGUISHERS</name>
+	<name>FLEET_DISTRACTION</name>
+	<name>TELEPORT_HEAL</name>
+	<name>BATTERY_BOOSTER</name>
+	<name>DEFENSE_SCRAMBLER</name>
+	<name>BACKUP_DNA</name>
+	<name>LIFE_SCANNER</name>
+	<name>ZOLTAN_BYPASS</name>
+	<name>HACKING_STUN</name>
+</blueprintList>
+
+<blueprintList name="DLC_WEAPONS">
+	<name>BOMB_HEAL_SYSTEM</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>ION_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_CHARGEGUN</name>
+	<name>ION_STUN</name>
+	<name>BOMB_STUN</name>
+	
+	
+</blueprintList>
+
+<blueprintList name="DLC_DRONES">
+	<!--<name>DRONE_HACKING</name>-->
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD</name>
+	<name>ANTI_DRONE</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+</blueprintList>
+
+
+
+<blueprintList name="DLC_AUGMENTS">
+	<name>O2_MASKS</name>
+	<name>EXPLOSIVE_REPLICATOR</name>
+	<name>FIRE_EXTINGUISHERS</name>
+	<name>FLEET_DISTRACTION</name>
+	<name>TELEPORT_HEAL</name>
+	<name>BATTERY_BOOSTER</name>
+	<name>DEFENSE_SCRAMBLER</name>
+	<name>BACKUP_DNA</name>
+	<name>LIFE_SCANNER</name>
+	<name>ZOLTAN_BYPASS</name>
+	<name>HACKING_STUN</name>
+</blueprintList>
+
+
+
+<!-----------------------------
+	NEW AUGMENTS
+------------------------------->
+
+<augBlueprint name="O2_MASKS"> 
+	<title>Respirador de Emergência</title>
+	<desc>A tripulação sofre metade do dano por pouco oxigênio.</desc>
+	<cost>50</cost>
+	<bp>8</bp>
+	<rarity>2</rarity>
+	<stackable>false</stackable>
+	<value>0.5</value>
+</augBlueprint>
+
+<augBlueprint name="EXPLOSIVE_REPLICATOR"> 
+	<title>Replicador de Explosivo</title>
+	<desc>Armas que usam mísseis têm 50% de chance de não gastar o míssil.</desc>
+	<cost>60</cost>
+	<bp>8</bp>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>0.5</value>
+</augBlueprint>
+
+<augBlueprint name="FIRE_EXTINGUISHERS"> 
+	<title>Supressão de Incêndio</title>
+	<desc>Automaticamente extingue incêndios na nave.</desc>
+	<cost>65</cost>
+	<bp>8</bp>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>1.f</value>
+</augBlueprint>
+
+<augBlueprint name="FLEET_DISTRACTION">
+	<title>Boias de Distração</title>
+	<desc>Emite um falso sinal no início do setor para retardar os Rebeldes por 1 salto.</desc>
+	<cost>55</cost>
+	<bp>8</bp>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>1.f</value>
+</augBlueprint>
+
+<augBlueprint name="TELEPORT_HEAL">
+	<title>Teleportador Reconstrutivo</title>
+	<desc>A tripulação se cura totalmente durante a teleportação.</desc>
+	<cost>70</cost>
+	<bp>8</bp>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>1.f</value>
+</augBlueprint>
+
+<augBlueprint name="BATTERY_BOOSTER"> 
+	<title>Carregador de Bateria</title>
+	<desc>O tempo de reuso da Bateria de Backup é reduzido pela metade.</desc>
+	<cost>40</cost>
+	<bp>8</bp>
+	<rarity>2</rarity>
+	<stackable>false</stackable>
+	<value>0.5</value>
+</augBlueprint>
+
+<augBlueprint name="DEFENSE_SCRAMBLER"> 
+	<title>Ofuscador de Defesa</title>
+	<desc>Previne que os drones de defesa inimigo atirem em qualquer coisa.</desc>
+	<cost>80</cost>
+	<bp>8</bp>
+	<rarity>4</rarity>
+	<stackable>false</stackable>
+	<value>0.0</value>
+</augBlueprint>
+
+<augBlueprint name="BACKUP_DNA"> 
+	<title>Banco de Backup de DNA</title>
+	<desc>Sua tripulação fica a salvo no armazenamento de clones mesmo se o sistema estiver desativado ou quebrado.</desc>
+	<cost>40</cost> <!-- Was 35-->
+	<bp>8</bp>
+	<rarity>2</rarity>
+	<stackable>false</stackable>
+	<value>0.0</value>
+</augBlueprint>
+
+<augBlueprint name="HACKING_STUN">
+	<title>Atordoamento de Hacking</title>
+	<desc>Toda a tripulação dentro de uma sala durante um Pulso Hacker será atordoada pela duração do pulso.</desc>
+	<cost>60</cost>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>0.0</value>
+</augBlueprint>
+
+<augBlueprint name="LIFE_SCANNER"> 
+	<title>Scanner Vital</title>
+	<desc>Detecta a localização de qualquer forma de vida, mesmo quando os sensores não funcionam.</desc>
+	<cost>40</cost>
+	<bp>8</bp>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>0.0</value>
+</augBlueprint>
+
+<augBlueprint name="ZOLTAN_BYPASS"> 
+	<title>Atravessador de Escudo Zoltan</title>
+	<desc>Permite que o teleporte de tripulação/bombas e o controle de mente funcionem através dos Super Escudos.</desc>
+	<cost>55</cost>
+	<bp>8</bp>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>0.0</value>
+</augBlueprint>
+
+<!------------------------------------------>
+
+<crewBlueprint name="anaerobic">
+	<desc>Estes seres anaeróbicos parecem bem amigáveis.</desc>
+	<title>Lanius</title>
+	<short>Lanius</short>
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Suga o oxigênio das salas.</power>
+		<power>Movimento lerdo mas não sofre dano pela falta de oxigênio.</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - color -->
+			<color r="196" g="117" b="232" a="0.3"/>
+			<color r="1" g="1" b="1" a="0"/>
+			<color r="1" g="1" b="1" a="0.2"/>
+			<color r="232" g="220" b="117" a="0.5"/>
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+<!------------------------------------------>
+
+
+
+<systemBlueprint name="clonebay">
+	<type>sala_clonagem</type>
+	<title>Sala de Clonagem</title>
+	<desc>Automaticamente clona um membro morto com penalidade de habilidade. Usando a micro-clonagem, a tripulação se cura parcialmente a cada salto. A cura é passiva e não necessita de energia.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>35</level> <!-- level 2 -->
+		<level>45</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>50</cost>
+</systemBlueprint>
+
+<systemBlueprint name="hacking">
+	<type>hacking</type>
+	<title>Hacking</title>
+	<desc>Atinge um único sistema, travando suas portas e concedendo a habilidade de temporariamente desabilitá-lo ou desordená-lo. Necessita de uma peça de drone para lançar.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>35</level> <!-- level 2 -->
+		<level>60</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>80</cost>
+</systemBlueprint>
+
+<systemBlueprint name="battery">
+	<type>bateria</type>
+	<title>Bateria de Backup</title>
+	<desc>Fornece por 30 segundos um reforço de energia para o seu Reator. Melhorar o sistema aumenta a quantidade de energia.</desc>
+	<startPower>1</startPower>
+	<maxPower>2</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>50</level> <!-- level 2 -->
+	</upgradeCost>
+	<cost>35</cost>
+</systemBlueprint>
+
+<systemBlueprint name="mind">
+	<type>mente</type>
+	<title>Controle de Mente</title>
+	<desc>Temporariamente transforma os inimigos em aliados.</desc>
+	<startPower>1</startPower>
+	<maxPower>3</maxPower>
+	<rarity>1</rarity>
+	<upgradeCost>
+		<level>30</level> <!-- level 2 -->
+		<level>60</level> <!-- level 3 -->
+	</upgradeCost>
+	<cost>75</cost>
+	<locked>1</locked>
+</systemBlueprint>
+
+<!------------------------------------------>
+
+<droneBlueprint name="BOARDER_ION">
+	<type>INVASOR</type>
+	<tip>tip_boarding</tip>
+	<locked>1</locked>
+	<title>Drone Intruso de Íon</title>
+	<short>Int. de Íon</short>
+	<desc>Penetra pela fuselagem inimiga e ioniza sistemas aleatoriamente.</desc>
+	<power>3</power>
+	<speed>18</speed>
+	<cost>65</cost>
+	<rarity>4</rarity>
+	<iconImage>ionD</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="DRONE_HACKING">
+	<type>HACKING</type>
+	<locked>1</locked>
+	<title>Drone de Hacking</title>
+	<short>Hacking</short>
+	<desc>Nunca deveria ver isso.</desc>
+	<power>1</power>
+	<speed>28</speed>
+	<cost>70</cost>
+	<rarity>0</rarity>
+	<droneImage>drone_hack</droneImage>
+</droneBlueprint>
+
+<droneBlueprint name="ANTI_DRONE">
+	<type>DEFESA</type>
+	<tip>tip_defense</tip>
+	<target>DRONES</target>
+	<level>1</level>
+	<title>Drone Anti-Combate</title>
+	<short>Anti-Drone</short>
+	<desc>Atordoa os drones de combate que atacam sua nave.</desc>
+	<power>1</power>
+	<cooldown>7000</cooldown> <!--- Shooting cooldown for shooting at asteroids/missiles, in ms -->
+	<dodge>0</dodge>
+	<speed>5</speed> <!--- Superficial change.. just makes it fly faster -->
+	<cost>35</cost>
+	<bp>2</bp>
+	<droneImage>drone_anti</droneImage>
+	<!---- WEAPON INFO --->
+	<weaponBlueprint>ANTI_DRONE_ION</weaponBlueprint>
+	<!----- -->
+	<rarity>1</rarity>
+	<iconImage>antiD</iconImage>
+</droneBlueprint>
+
+<weaponBlueprint name="ANTI_DRONE_ION"> 
+	<type>LASER</type>
+	<title>Laser de Drone</title>
+	<damage>0</damage>
+	<shots>1</shots>
+	<ion>1</ion>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<speed>90</speed>
+	<image>ion_1_shot</image>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_1</weaponArt> 
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="DRONE_BEAM2">
+	<type>FEIXE</type>
+	<title>Mini-Feixe</title>
+	<short>Mini-Feixe</short>
+	<desc>'Primeiro feixe da criança'; Arma de feixe extremamente barata e fraca.</desc>
+	<damage>1</damage>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<speed>8</speed>
+	<rarity>0</rarity>
+	<image>beam_contact</image>
+	<length>40</length>
+	<launchSounds>
+		<sound>beam1</sound>
+		<sound>beam1_2</sound>
+	</launchSounds>
+	<weaponArt>beam_1</weaponArt> 
+</weaponBlueprint>
+<droneBlueprint name="COMBAT_BEAM_2">
+	<type>COMBATE</type>
+	<title>Drone de Feixe Anti-Nave II</title>
+	<tip>tip_combat</tip>
+	<short>Feixe II</short>
+	<desc>Drone de combate que ataca repetidamente com uma grande arma de feixe.</desc>
+	<power>3</power>
+	<cooldown>1000</cooldown> <!--- Doesn't effect combat drone -->
+	<dodge>0</dodge>
+	<speed>11</speed> <!--- Change this to increase/decrease firing speed -->
+	<cost>60</cost>
+	<bp>3</bp>
+	<droneImage>drone_beam_2</droneImage>
+	<weaponBlueprint>DRONE_BEAM2</weaponBlueprint>
+	<rarity>5</rarity>
+	<iconImage>beam2</iconImage>
+</droneBlueprint>
+
+<weaponBlueprint name="DRONE_FIREBEAM">
+	<type>FEIXE</type>
+	<title>Feixe de Fogo</title>
+	<short>Feixe de Fogo</short>
+	<desc>Feixe de fogo.</desc>
+	<damage>0</damage>
+	<sp>0</sp>
+	<fireChance>9</fireChance>
+	<breachChance>0</breachChance>
+	<speed>2</speed>
+	<rarity>0</rarity>
+	<image>beam_contact</image>
+	<length>10</length>
+	<launchSounds>
+		<sound>beam1</sound>
+		<sound>beam1_2</sound>
+	</launchSounds>
+	<weaponArt>beam_1</weaponArt> 
+</weaponBlueprint>
+<droneBlueprint name="COMBAT_FIRE">
+	<type>COMBATE</type>
+	<tip>tip_combat</tip>
+	<title>Drone de Fogo Anti-Nave</title>
+	<short>Fogo</short>
+	<desc>Drone de combate que ataca repetidamente com uma pequena arma de feixe que causa incêndios.</desc>
+	<power>3</power>
+	<cooldown>1000</cooldown> <!--- Doesn't effect combat drone -->
+	<dodge>0</dodge>
+	<speed>12</speed> <!--- Change this to increase/decrease firing speed -->
+	<cost>50</cost>
+	<bp>3</bp>
+	<droneImage>drone_fire</droneImage>
+	<weaponBlueprint>DRONE_FIREBEAM</weaponBlueprint>
+	<rarity>4</rarity>
+	<iconImage>fire</iconImage>
+</droneBlueprint>
+
+
+
+<droneBlueprint name="DRONE_SHIELD">
+	<type>ESCUDO</type>
+	<level>1</level>
+	<tip>tip_defense</tip>
+	<title>Sobrecarregador de Escudo</title>
+	<short>Escudo</short>
+	<desc>Periodicamente cria uma barreira de Superescudo.</desc>
+	<power>3</power>
+	<cooldown>15000</cooldown> <!--- cooldown for recharge, in ms -->
+	<dodge>0</dodge>
+	<speed>5</speed> <!--- Superficial change.. just makes it fly faster -->
+	<cost>60</cost>
+	<bp>2</bp>
+	<droneImage>drone_shield</droneImage>
+	<rarity>4</rarity>
+	<iconImage>shield</iconImage>
+</droneBlueprint>
+
+
+<droneBlueprint name="DRONE_SHIELD_PLAYER">
+	<type>ESCUDO</type>
+	<level>1</level>
+	<tip>tip_defense</tip>
+	<title>Sobrecarregador de Escudo</title>
+	<short>Escudo+</short>
+	<desc>Periodicamente cria uma barreira de Superescudo. Esse projeto modificado necessita de 1 de energia a menos.</desc>
+	<power>2</power>
+	<cooldown>15000</cooldown> <!--- cooldown for recharge, in ms -->
+	<dodge>0</dodge>
+	<speed>5</speed> <!--- Superficial change.. just makes it fly faster -->
+	<cost>60</cost>
+	<bp>2</bp>
+	<droneImage>drone_shield</droneImage>
+	<rarity>0</rarity>
+	<iconImage>shield</iconImage>
+</droneBlueprint>
+
+<weaponBlueprint name="BOMB_HEAL_SYSTEM">
+	<type>BOMBA</type>
+	<tip>tip_repair_bomb</tip>
+	<title>Explosão de Reparo</title>
+	<short>Exp. de Reparo</short>
+	<locked>1</locked>
+	<desc>Unidade que se auto-teleporta e preenche uma sala com nano-robôs capazes de reparar completamente todo dano ao sistema.</desc>
+	<tooltip>Arma explosiva; necessita de um míssil; completamente repara um sistema. Pode ser disparada em sua própria nave.</tooltip>
+	<damage>0</damage>
+	<sysDamage>-8</sysDamage>
+	<persDamage>0</persDamage>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>14</cooldown> <!-- was 18-->
+	<power>1</power>
+	<cost>40</cost>
+	<bp>4</bp>
+	<rarity>3</rarity>
+	<image>bomb_repair_anim</image>
+	<explosion>explosion_repair</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>healBomb</sound>
+	</hitShipSounds>
+	<weaponArt>bomb_repair</weaponArt> 
+	<iconImage>bomb_heal</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="SHOTGUN_PLAYER">
+	<type>EXPLOSÃO</type>
+	<drone_targetable>1</drone_targetable>
+	<flavorType>Disparo de Projétil Físico</flavorType>
+	<title>Canhão Flak Avançado</title>
+	<short>Flak Avançado</short>
+	<tip>tip_flak</tip>
+	<desc>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano. Bom para acabar com escudos mas difícil de mirar.</desc>
+	<tooltip>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano.</tooltip>
+	<radius>40</radius>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>8</cooldown>
+	<power>1</power>
+	<cost>60</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="1" fake="false">debris_large</projectile>
+		<projectile count="2" fake="false">debris_med</projectile>
+		<projectile count="3" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>shotgun</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="SHOTGUN">
+	<type>EXPLOSÃO</type>
+	<flavorType>Disparo de Projétil Físico</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Canhão Flak Modelo I</title>
+	<tip>tip_flak</tip>
+	<short>Flak I</short>
+	<desc>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano. Bom para acabar com escudos mas difícil de mirar.</desc>
+	<tooltip>Dispara uma rajada de escombros em uma área aleatória causando até 3 de dano.</tooltip>
+	<radius>42</radius>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>10</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>1</rarity>
+	<projectiles>
+		<projectile count="1" fake="false">debris_large</projectile>
+		<projectile count="2" fake="false">debris_med</projectile>
+		<projectile count="3" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>shotgun</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="ARTILLERY_FED_C">
+	<type>EXPLOSÃO</type>
+	<flavorType>Disparo de Projétil Físico</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Artilharia Flak</title>
+	<short>Art. Flak</short>
+	<desc>Carrega um poderoso e lento canhão flak que dispara sete projéteis. Mais energia significa tempo de recarga reduzido.</desc>
+	<tooltip>Artilharia: Canhão flak que dispara automaticamente sete projéteis.</tooltip>
+	<radius>35</radius>
+	<damage>1</damage>
+	<spin>720</spin>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>40</cooldown>
+	<power>3</power>
+	<cost>75</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_large</projectile>
+		<projectile count="4" fake="false">debris_med</projectile>
+		<projectile count="7" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<iconImage>flak</iconImage>
+	<weaponArt>artillery_fed</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="SHOTGUN_2">
+	<type>EXPLOSÃO</type>
+	<flavorType>Disparo de Projétil Físico</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Canhão Flak Modelo II</title>
+	<short>Flak II</short>
+	<tip>tip_flak</tip>
+	<desc>Dispara uma rajada de escombros em uma área aleatória causando até 7 de dano. Bom para acabar com escudos mas difícil de mirar.</desc>
+	<tooltip>Dispara uma rajada de escombros em uma área aleatória causando até 7 de dano.</tooltip>
+	<radius>55</radius>
+	<damage>1</damage>
+	<spin>720</spin>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>21</cooldown>
+	<power>3</power>
+	<cost>80</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>4</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_large</projectile>
+		<projectile count="4" fake="false">debris_med</projectile>
+		<projectile count="6" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>shotgun_2</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="MISSILE_CHARGEGUN">
+	<type>EXPLOSÃO</type>
+	<flavorType>Míssil Explosivo de Carga</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Mísseis de Enxame</title>
+	<tip>tip_charge</tip>
+	<short>Enxame</short>
+	<desc>Dado tempo suficiente para carregar, o 'Enxame' pode replicar múltiplos mísseis.</desc>
+	<tooltip>Carrega até 3 mísseis que penetram escudos. Entretanto, sempre gasta apenas um míssil.</tooltip>
+	<radius>31</radius>  <!-- was 34-->
+	<missiles>1</missiles>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<drone_targetable>1</drone_targetable> 
+	<cooldown>7</cooldown>
+	<power>2</power>
+	<chargeLevels>3</chargeLevels>
+	<cost>65</cost>
+	<bp>10</bp>
+	<speed>45</speed>
+	<rarity>4</rarity>
+	<explosion>explosion_random</explosion>
+	<projectiles>
+		<projectile count="1" fake="false">missile_burst</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>smallMissile1</sound>
+		<sound>smallMissile2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargemissile</weaponArt>  
+	<iconImage>missile_charge</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="LASER_CHAINGUN">  <!-- 1 shot 1power-->
+	<type>LASER</type>
+	<title>Laser de Explosão Encadeado</title>
+	<short>L. Encadeado.</short>
+	<tip>tip_chain_laser</tip>
+	<desc>Esse laser duplo diminui seu tempo de recarga a cada disparo. Depois de 3 rajadas leva apenas 7 segundos para recarregar.</desc>
+	<tooltip>Dispara dois lasers que causam 1 de dano cada. Tempo de recarga diminui a cada disparo.</tooltip>
+	<damage>1</damage>
+	<shots>2</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>16</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>2</bp>
+	<rarity>3</rarity>
+	<image>laser_light1</image>
+	<boost>
+		<type>cooldown</type>
+		<amount>3</amount>
+		<count>3</count>
+	</boost>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chainlaser</weaponArt> 
+	<iconImage>laser_chain</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="LASER_CHAINGUN_2">  <!-- 1 shot 1power-->
+	<type>LASER</type>
+	<title>Vulcan Encadeado</title>
+	<short>Vulcan</short>
+	<tip>tip_chain_laser</tip>
+	<desc>Essa arma de laser leva muito tempo para aquecer. Cada vez que dispara diminui seu tempo de recarga, cedo ou tarde é capaz de acabar com qualquer quantidade de escudos.</desc>
+	<tooltip>Tempo de recarga diminui a cada disparo.</tooltip>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>11.1</cooldown>
+	<power>4</power>
+	<cost>95</cost>
+	<bp>2</bp>
+	<rarity>5</rarity>
+	<image>laser_light1</image>
+	<boost>
+		<type>cooldown</type>
+		<amount>2</amount>
+		<count>5</count>
+	</boost>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chainlaser_2</weaponArt> 
+	<iconImage>laser_chain</iconImage>
+</weaponBlueprint>
+
+
+
+<weaponBlueprint name="ION_CHAINGUN">
+	<type>LASER</type>
+	<title>Íon Encadeado</title>
+	<short>I. Encadeado</short>
+	<locked>1</locked>
+	<tip>tip_chain_ion</tip>
+	<desc>O dano iônico dessa arma aumenta a cada disparo até um total de 4.</desc>
+	<tooltip>Dispara uma única onda que causa 1 de dano iônico. Pode atingir e desativar escudos e sistemas.</tooltip>
+	<damage>0</damage>
+	<ion>1</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>14</cooldown> <!--13-->
+	<power>3</power>
+	<cost>55</cost>
+	<bp>3</bp>
+	<rarity>4</rarity>
+	<image>ion_2_shot</image>
+	<boost>
+		<type>damage</type>
+		<amount>1</amount>
+		<count>3</count>
+	</boost>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_chaingun</weaponArt> 
+	<iconImage>ion_chain</iconImage>
+</weaponBlueprint>
+
+
+
+<weaponBlueprint name="LASER_CHARGEGUN_PLAYER"> 
+	<type>LASER</type>
+	<title>Laser de Carga</title>
+	<short>L. de Carga</short>
+	<tip>tip_charge</tip>
+	<desc>Essa arma de laser pode carregar duas vezes, ganhando um projétil adicional. Esta versão melhorada necessita de apenas 1 de energia.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 2.</tooltip>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>5.5</cooldown> <!-- was 4.2-->
+	<power>1</power>
+	<cost>30</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<image>laser_light1</image>
+	<chargeLevels>2</chargeLevels>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargelaser</weaponArt> 
+	<iconImage>laser_charge2</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="LASER_CHARGEGUN"> 
+	<type>LASER</type>
+	<title>Laser de Carga</title>
+	<short>L. de Carga</short>
+	<tip>tip_charge</tip>
+	<desc>Essa arma de laser pode carregar duas vezes, ganhando um projétil adicional.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 2.</tooltip>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>6</cooldown> <!-- was 4.2-->
+	<power>2</power>
+	<cost>55</cost> <!-- was 45-->
+	<bp>2</bp>
+	<rarity>3</rarity>
+	<image>laser_light1</image>
+	<chargeLevels>2</chargeLevels>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargelaser</weaponArt> 
+	<iconImage>laser_charge2</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="LASER_CHARGEGUN_2"> 
+	<type>LASER</type>
+	<title>Laser de Carga</title>
+	<short>L. de Carga II</short>
+	<tip>tip_charge</tip>
+	<desc>Essa arma de laser pode carregar várias vezes, ganhando projéteis adicionais.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 4.</tooltip>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>5</cooldown>
+	<power>3</power>
+	<cost>70</cost>
+	<bp>2</bp>
+	<rarity>3</rarity>
+	<image>laser_light1</image>
+	<chargeLevels>4</chargeLevels>
+	<launchSounds>
+		<sound>lightLaser1</sound>
+		<sound>lightLaser2</sound>
+		<sound>lightLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull2</sound>
+		<sound>hitHull3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargelaser2</weaponArt> 
+	<iconImage>laser_charge4</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="ION_CHARGEGUN"> 
+	<type>LASER</type>
+	<title>Íon de Carga</title>
+	<short>Í. de Carga</short>
+	<tip>tip_charge</tip>
+	<desc>Essa arma de íon pode carregar várias vezes, ganhando projéteis adicionais.</desc>
+	<tooltip>Dispara mais vezes quanto mais carrega, até um máximo de 3.</tooltip>
+	<damage>0</damage>
+	<ion>1</ion>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<speed>30</speed>
+	<breachChance>0</breachChance>
+	<cooldown>6</cooldown>
+	<power>2</power>
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>3</rarity>
+	<image>ion_1_shot</image>
+	<chargeLevels>3</chargeLevels>
+	<explosion>explosion_small_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargeion</weaponArt> 
+	<iconImage>ion_charge</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="ION_STUN">
+	<type>LASER</type>
+	<tip>tip_ion</tip>
+	<title>Íon Atordoador</title>
+	<short>Íon Atordoador</short>
+	<locked>1</locked>
+	<desc>Armas de íon podem desativar sistemas sem causar dano à fuselagem. Essa arma atordoa a tripulação dentro da sala por 5 segundos.</desc>
+	<tooltip>Dispara uma única onda que causa 1 de dano iônico. Pode atingir e desativar escudos e sistemas.</tooltip>
+	<stun>5</stun>
+	<damage>0</damage>
+	<ion>1</ion>
+	<speed>30</speed>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>10</cooldown>
+	<power>1</power>
+	<cost>35</cost>
+	<bp>3</bp>
+	<rarity>4</rarity>
+	<image>ion_stun_shot</image>
+	<explosion>explosion_stun_ion</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_stun</weaponArt> 
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<weaponBlueprint name="BOMB_STUN"> 
+	<type>BOMBA</type>
+	<tip>tip_bombs</tip>
+	<title>Bomba de Atordoamento</title>
+	<short>B. de Atordoamento</short>
+	<locked>1</locked>
+	<desc>Explosivo que se auto-teleporta, causa 1 de dano iônico e atordoa toda a tripulação dentro da sala. Pode ser disparado em sua própria nave.</desc>
+	<tooltip>Arma explosiva; necessita de um míssil; causa 1 de dano iônico. Atordoa toda a tripulação dentro da sala. Pode ser disparado em sua própria nave.</tooltip>
+	<damage>0</damage>
+	<stun>15</stun>
+	<sysDamage>0</sysDamage>
+	<persDamage>0</persDamage>
+	<ion>1</ion>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>17</cooldown>
+	<power>1</power>
+	<cost>45</cost>
+	<bp>4</bp>
+	<rarity>2</rarity>
+	<image>bomb_stun_anim</image>
+	<explosion>explosion_big1_ion</explosion>
+	<launchSounds>
+		<sound>bombTeleport</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<weaponArt>bomb_stun</weaponArt> 
+	<iconImage>bomb</iconImage>
+</weaponBlueprint>
+
+
+
+<weaponBlueprint name="PDS_SHOT">
+	<type>LASER</type>
+	<title>PDS SHOT</title>
+	<short>PDS SHOT</short>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<tooltip>YOU SHOULD NEVER SEE THIS.</tooltip>
+	<damage>3</damage>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>0</fireChance>
+	<breachChance>10</breachChance>
+	<cooldown>9</cooldown>
+	<power>1</power>
+	<speed>20</speed>
+	<cost>55</cost>
+	<bp>6</bp>
+	<rarity>0</rarity>
+	<image>pds</image>
+	<explosion>explosion_random</explosion>
+	<launchSounds>
+		<sound>heavyLaser1</sound>
+		<sound>heavyLaser2</sound>
+		<sound>heavyLaser3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>hitHull1</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>laser_heavy_1</weaponArt> 
+</weaponBlueprint>
+
+
+
+
+
+<!--  
+   ***********************
+	Anaerobic SHIP
+   ***********************
+ -->
+<!-- SHIP ID = ??? -->    
+<shipBlueprint name="PLAYER_SHIP_ANAEROBIC" layout="anaerobic_cruiser" img="anaerobic_cruiser">
+	<class>Cruzador Lanius</class>
+	<name>Kruos</name>
+	<unlock>Fascine os Lanius com uma frota valorosa, destrave 4 naves além do Cruzador Kestrel para habilitar esta nave.</unlock>
+	<desc>As estruturas afiadas como uma lâmina tornam as naves Lanius dignas de admiração. Esse cruzador foi adaptado para suportar as outras raças da Federação.</desc>
+	<systemList>
+		<pilot power="1" room="8" start="true" img="room_pilot_4">  
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<doors power="1" room="15" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>  
+		<sensors power="1" room="14" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>    
+		<oxygen power="1" room="2" start="true" img="room_oxygen_2"/>
+		<engines power="1" room="7" start="true" img="room_engines_7">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<shields power="2" room="5" start="true" img="room_shields_10">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<weapons power="3" room="9" start="true" img="room_weapons_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+		<drones power="2" room="11" start="false" img="room_drones_9"/> <!--F-->
+		<clonebay power="1" room="0" start="true">  
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<medbay power="1" room="0" start="false" img="room_medbay_4">   <!--F-->
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<teleporter power="1" room="1" start="false"/>   <!--F-->
+		<cloaking power="1" room="6" start="false" img="room_cloaking_4"/>  <!--F-->
+		<battery power="1" room="10" start="false" img="room_battery_10"/>   <!--F-->
+		<mind power="1" room="13" start="false" img="room_mind_6"/>   <!--F-->
+		<hacking power="1" room="3" start="true" img="room_hacking_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</hacking>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="2" missiles="3">
+		<weapon name="LASER_CHAINGUN"/>
+		<weapon name="ION_STUN"/>
+	</weaponList>
+	<droneList count="0" drones="9"/>
+	<health amount="30"/>
+	<maxPower amount ="8"/> 
+	<crewCount amount = "1" class="human"/>
+	<crewCount amount = "2" class="anaerobic"/>
+	<aug name="O2_MASKS"/>
+	<cloakImage>anaerobic_cruiser</cloakImage>
+</shipBlueprint>
+
+
+
+
+
+
+<shipBlueprint name="PLAYER_SHIP_ANAEROBIC_2" layout="anaerobic_cruiser_2" img="anaerobic_cruiser_2">
+	<class>Cruzador Lanius</class>
+	<name>O Picanço</name>
+	<unlock>Complete 2/3 das Conquistas do Cruzador Lanius para destravar esta nave.</unlock>
+	<desc>A habilidade racial dos Lanius os tornam temíveis combatentes em salas fechadas. Combine isso com um sistema de Controle de Mente e essa nave é uma força para se levar em conta.</desc>
+	<systemList>
+		<pilot power="1" room="9" start="true">
+			<slot>
+				<direction>right</direction>
+				<number>0</number> 
+			</slot>
+		</pilot>  
+		<doors power="1" room="16" start="true" img="room_doors_2">  
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<sensors power="1" room="0" start="false" img="room_sensors_2"> <!--F-->
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<oxygen power="1" room="5" start="true"/>
+		<engines power="1" room="8" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<shields power="2" room="4" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<weapons power="1" room="13" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+		<drones power="2" room="2" start="false" img="room_drones_7"/> <!--F-->
+		<clonebay power="1" room="11" start="true">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<medbay power="1" room="11" start="false" img="room_medbay_7"> <!--F-->
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<teleporter power="1" room="12" start="true"/>  
+		<cloaking power="1" room="1" start="false" img="room_cloaking_3"/> <!--F-->
+		<mind power="1" room="17" start="true" img="room_mind_3"/> 
+		<battery power="1" room="15" start="false" img="room_battery_12"/>  <!--F-->
+		<hacking power="1" room="3" start="false" img="room_hacking_4">  <!--F-->
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</hacking>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="1" missiles="0">
+		<weapon name="SHOTGUN_PLAYER"/>
+	</weaponList>
+	<droneList drones="0"/>
+	<health amount="30"/>
+	<maxPower amount ="8"/> 
+	<crewCount amount = "1" class="engi"/>
+	<crewCount amount = "2" class="anaerobic"/>
+	<aug name="O2_MASKS"/>
+	<shieldImage>anaerobic_cruiser</shieldImage>
+	<cloakImage>anaerobic_cruiser</cloakImage>
+</shipBlueprint>
+
+
+
+
+<!---
+
+
+
+This is the original 1st version.  I replaced it with the U shaped ship with the inner ring of airlocks.  I'm 
+keeping this in case we need another layout for now 
+<shipBlueprint name="PLAYER_SHIP_ANAEROBIC_3" layout="anaerobic_cruiser_3" img="anaerobic_cruiser_3">
+	<class>Shrike Cruiser</class>
+	<name>wutwutwut</name>
+	<unlock>>???????????</unlock>
+	<desc>???????????????????</desc>
+	<systemList>
+		<pilot power="1" room="7" start="true">  
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<doors power="1" room="12" start="true"/>  
+		<sensors power="1" room="5" start="true"/>  
+		<oxygen power="1" room="6" start="true"/>
+		<engines power="2" room="2" start="true">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<shields power="2" room="4" start="true">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<weapons power="2" room="11" start="true">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+		<drones power="2" room="9" start="false"/>
+		<medbay power="1" room="10" start="true">  
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<teleporter power="1" room="14" start="true"/>  
+		<cloaking power="1" room="3" start="true"/> 
+		<battery power="1" room="13" start="false"/>  <!-- NEEDS Room image 
+		<mind power="1" room="0" start="false"/>  <!-- NEEDS Room image 
+		<hacking power="1" room="1" start="false"/>  <!-- NEEDS Room image 
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="1" missiles="5">
+		<weapon name="LASER_BURST_3"/>
+	</weaponList>
+	<droneList drones="2"/>
+	<droneList count="0" drones="0"/>
+	<health amount="30"/>
+	<maxPower amount ="8"/> 
+	<crewCount amount = "4" class="anaerobic"/>
+</shipBlueprint>
+-->
+
+
+
+
+
+<blueprintList name="SHIPS_LANIUS">
+	<name>ANAEROBIC_SCOUT</name>
+	<name>ANAEROBIC_BOMBER</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ANAEROBIC">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_5</name>
+	<name>LASER_HEAVY_1</name>
+	<name>LASER_HEAVY_2</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>ION_2</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2</name>
+	<name>BOMB_1</name>
+</blueprintList>
+
+
+<!----------------------
+ANAEROBIC ENEMY SHIPS  - AUTOBLUEPRINT
+  --------------------->
+ 
+  <shipBlueprint name="ANAEROBIC_SCOUT" layout="anaerobic_scout" img="anaerobic_scout">
+	<class>Batedor Lanius</class>
+	<maxSector>7</maxSector>
+	<systemList>
+		<pilot power="1"max="3" room="1"/>
+		<clonebay power="1" max="3" room="3" start="false"/>
+		<!--<oxygen power="1" max="3" room="9"/> -->
+		<shields power="2" max="8" room="5"/>
+		<engines power="1" max="5" room="6"/>
+		<weapons power="2" max="8" room="4"/>
+		<doors power="1" max="3" room="0" start="false"/>
+		<hacking power="1" max="3" room="2" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ANAEROBIC"/>
+	<health amount="7"/>	
+	<maxPower amount ="7"/>
+	<crewCount amount = "2" max="3" class="anaerobic"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>anaerobic_scout</cloakImage>
+	<aug name="O2_MASKS"/>
+</shipBlueprint>
+
+
+  <shipBlueprint name="ANAEROBIC_BOMBER" layout="anaerobic_bomber" img="anaerobic_bomber">
+	<class>Bombardeador Lanius</class>
+	<minSector>3</minSector>
+	<systemList>
+		<pilot power="1"max="3" room="3"/>
+		<doors power="1" max="3" room="10" start="false"/>
+		<clonebay power="1" max="3" room="7" start="false"/>
+		<!--<oxygen power="1" max="3" room="9"/> -->
+		<shields power="2" max="8" room="0"/>
+		<engines power="1" max="5" room="9"/>
+		<weapons power="2" max="8" room="1"/>
+		<mind power="1" max="2" room="4" start="false"/>
+		<teleporter power="1" max="3" room="8"/>
+		<cloaking power="1" max="3" room="2" start="false"/>
+	</systemList>
+	<weaponList missiles="10" load="WEAPONS_ANAEROBIC"/>
+	<health amount="9"/>	
+	<maxPower amount ="7"/>
+	<crewCount amount = "3" max="5" class="anaerobic"/>
+	<boardingAI>sabotage</boardingAI>
+	<cloakImage>anaerobic_bomber</cloakImage>
+	<aug name="O2_MASKS"/>
+</shipBlueprint>
