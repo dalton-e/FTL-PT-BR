@@ -127,8 +127,8 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	<text load="START_BEACON_ENGI"/>
 </event>
 <textList name="START_BEACON_ENGI">
-	<text>You have arrived in Engi space. The Mantis have been threatening the Engi core worlds, but you should be able to stock up for your journey.</text>
-	<text>You have arrived in Engi space. The fall of the Federation has brought tough times for these robotic lifeforms, but they're usually willing to help.</text>
+	<text>Você chegou no espaço Engi. Os Mantis vêm ameaçando os principais planetas dos Engi, mas você deve ser capaz de se abastecer para sua jornada.</text>
+	<text>Você chegou no espaço Engi. A queda da Federação tem trazido tempos difíceis para essas formas de vida robóticas, mas eles geralmente estão dispostos a ajudar.</text>
 </textList>
 
 <event name="STORE_ENGI">
@@ -136,25 +136,25 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	<store/>
 </event>
 <textList name="STORE_ENGI">
-	<text>The Engi can do remarkable things with just a pile of scrap. The Engi hive at this beacon are selling equipment for just that.</text>
-	<text>A message arrives: "Your scrap, ours. Our weapons for you." You're about to raise the shields when you realize it's just an Engi trader looking for a trade.</text>
-	<text>An Engi ship hails: "Engine upgrade necessary for travel home. Sale of equipment necessary for engine upgrade."</text>
+	<text>Os Engi conseguem fazer coisas incríveis com a sucata. A colônia Engi neste local está vendendo equipamento justamente para isso.</text>
+	<text>Uma mensagem chega: "Sua sucata, nossa. Nossas armas, para você." Você está prestes a ligar os escudos quando percebe que é apenas um mercador Engi querendo fazer uma troca.</text>
+	<text>Uma nave Engi entra em contato: "Melhoria do motor necessária para viagem para casa. Venda de equipamento necessária para melhoria do motor."</text>
 </textList>
 
 <event name="NOTHING_ENGI">
 	<text load="NOTHING_ENGI"/>
 </event>
 <textList name="NOTHING_ENGI">
-	<text>The complex arrangements of ship hulls and FTL drive capacitors floating abandoned in space suggest the Engi were here not too long ago; but no longer.</text>
-	<text>You arrive at a green planet with great plains and rolling waterfalls. It would be of little interest to the Engi nearby.</text>  <!-- JUSTIN TO DO-  MAKE GREEN PLANET-->
-	<text>You have arrived near an Engi construction yard. Most Engi maintain their bi-pedal appearance out of habit but here you see a number of Engi hives working together to create massive organic machines adept at building ships. Truly a sight to behold.</text>
-	<text>Even though each "individual" Engi is made up of trillions of nano-machines, their culture still revolves around traditional social interactions. A nearby station seems to be constructed for entertainment of passing Engi travellers.</text>
-	<text>You see a number of Engi space stations and fleets nearby. Despite looking like piles of junk loosely tied together they are actually a model of efficiency. They just lack a certain aesthetic emphasis in their constructions.</text>
-	<text>This system appears quite peaceful. You're not sure how long it'll last between the combined threats of the Rebels and Mantis.</text>
-	<text>There are a number of merchant ships passing through the area despite the threat of Mantis invasion. No doubt interested in buying the efficient technology of the Engi.</text>
-	<text>You see a small Rebel carrier in the distance. You lay low and try to blend in with the other traffic. However it's surprising to see a Rebel military ship alone deep in Engi space.</text>
-	<text>The Engi seem to have avoided this particular node, along with every other life-form. You keep your eyes peeled for reasons why, but spin up the FTL without event.</text>
-	<text>A cluster of Engi satellites in orbit of a nearby planet are the only clue the mechanical species was ever here. You have other places to be.</text>
+	<text>O complexo arranjo de fuselagens e capacitores FTL flutuando abandonados no espaço sugerem que os Engi estiveram aqui há pouco tempo; mas não estão mais.</text>
+	<text>Você chega em um planeta verde com grande planícies e cachoeiras. Seria de pouco interesse para os Engi próximos.</text>  <!-- JUSTIN TO DO-  MAKE GREEN PLANET-->
+	<text>Você chegou próximo a um pátio de construção Engi. A maioria dos Engi mantêm-se sobre dois pés pela força do hábito mas aqui você vê alguns deles trabalhando unidos para criar massivas máquinas orgânicas especializadas em construir naves. Realmente uma visão e tanto.</text>
+	<text>Mesmo apensar de cada "indivíduo" Engi ser formado por trilhões de nano-robôs, a cultura deles gira em torno de interações sociais tradicionais. Uma estação próxima parece ter sido construída para entretenimento de viajantes Engi.</text>
+	<text>Você algumas estações espaciais e frotas Engi por perto. Apesar de parecerem um monte de sucatas velhas coladas umas nas outras, são na verdade um modelo de eficiência. Eles só não têm noção estética em suas construções.</text>
+	<text>Esse sistema aparente ser bem pacífico. Você não tem certeza de quanto tempo isso vai durar devido às ameaças combinadas dos Rebeldes e dos Mantis.</text>
+	<text>Existem algumas naves comerciantes passando pela área mesmo com a ameaça de invasão Mantisw. Sem dúvidas em busca de comprar a tecnologia eficiente dos Engi.</text>
+	<text>Você avista um pequeno cargueiro Rebelde à distância. Você disfarça e tenta se misturar com o restante do tráfego. Entretanto, é surpreendente avistar uma nave militar Rebelde sozinha em território Engi.</text>
+	<text>Os Engi parecem ter evitado esse ponto em particular, junto com todas as outras formas de vida. Você mantém os olhos abertos, mas liga o motor FTL em todo caso.</text>
+	<text>Um conjunto de satélites Engi em órbita de um planeta próximo são a única pista de que a espécie mecânica esteve por aqui. Você tem outros lugares para ir.</text>
 </textList>
 
 
