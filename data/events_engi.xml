@@ -174,18 +174,18 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	<autoReward level="RANDOM">standard</autoReward>
 </event>
 <textList name="ENGI_GIFT">
-	<text>An Engi vessel hails you. "Identity: Federation? Outlier probability. Implies... revival. Implies... hope. Assistance suggested." They offer some supplies.</text>
-	<text>You cross paths with an Engi cargo vessel hurrying home before the Mantis fleets attempt to take over this sector. They're happy to offload some of their cargo to get home faster.</text>
-	<text>You make contact with an isolated Engi science station who are staying put despite the likelihood of Mantis invasion. They suggest you trial some experimental technology.</text>
-	<text>This was the site of a recent battle. Either a show of Mantis force, or the Engi here weren't disposed to go peacefully. You pick through the pieces.</text>
+	<text>Uma nave Engi entra em contato: "Identidade: Federação? Probabilidade pequena. Implica em... ressurreição. Implica em... esperança. Assistência sugerida." Eles oferecem alguns suprimentos.</text>
+	<text>Você cruza com uma nave cargueira Engi em disparada para casa antes que as frotas Mantis tentem dominar este setor. Eles ficarão felizes em entregar parte da carga para viajarem mais rápido.</text>
+	<text>Você faz contato com uma estação científica Engi isolada que se mantém na área apesar de uma possível invasão Mantis. Eles sugerem que você use uma tecnologia experimental.</text>
+	<text>Aqui foi o lugar de uma batalha recente. Ou uma demonstração de força dos Mantis, ou os Engi não estavam dispostos a partir pacificamente. Você procura pelos escombros.</text>
 </textList>
 
 <event name="ENGI_FLEET_DELAY" unique="true">
-	<text>You notice an Engi colony hiding on the other side of a nearby moon. It turns out they're excavating an equipment cache from the Federation-Mantis War, and they suggest it might be used to lure the pursuing rebel fleet.</text>
+	<text>Você percebe uma colônia Engi se escondendo do outro lado de uma lua próxima. Na real eles estão escavando um depósito de equipamentos da guerra entre a Federação e os Mantis, e sugerem que talvez isso possa ser usado para atrair a atenção da frota rebelde.</text>
 	<choice>
-		<text>Booby trap the cache.</text>
+		<text>Armar uma carga explosiva no depósito.</text>
 		<event>
-			<text>You transfer down some missile warheads and the Engi rig them to blow before setting a distress signal to attract the fleet's attention.</text>
+			<text>Você transfere alguns mísseis e os Engi os armam para explodir antes de forjar um pedido de socorro para atrair a atenção da frota.</text>
 			<item_modify>
 				<item type="missiles" min="-2" max="-2"/>
 			</item_modify>
@@ -193,9 +193,9 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Secure the cache.</text>
+		<text>Assegurar o depósito.</text>
 		<event>
-			<text>You have the Engi complete their excavations and bring the supplies on-board.</text>
+			<text>Você espera os Engi terminarem a escavação e recolhe os suprimentos para a nave.</text>
 			<autoReward level="MED">drone</autoReward>
 		</event>
 	</choice>
@@ -203,22 +203,22 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 
 <event name="ENGI_MONSTER" unique="true">  <!-- TO DO - Need black image!!!!!! JUSTIN!!!! -->
 	<img back="BG_DARK" planet="NONE"/>
-	<text>As you jump in you're hailed urgently by an Engi science vessel in the distance. "We propose that you do not see the creature." There's nothing on the scanner, which is when you realize you can't see the creature because you're inside it!</text>
+	<text>Ao chegar, você é urgentemente contatado por uma nave científica Engi ao longe. "Recomendamos que você não veja a criatura." Não há nada no scanner, então é quando você percebe que não pode ver a criatura porque está dentro dela!</text>
 	<choice hidden="true">
-		<text>Jump away ASAP.</text>
+		<text>Saltar imediatamente.</text>
 		<event/>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="3">
-		<text>(Improved Sensors) Scan the monstrosity.</text>
+		<text>(Sensores Melhorados) Scannear a monstruosidade.</text>
 		<event>
-			<text>You detect a faint, arrhythmic sub-wave pattern. Could the creature be communicating? You forward your observations to the Engi vessel and they thank you in turn.</text>
+			<text>Você detecta um padrão ondular arrítmico e franco. Será que a criatura está se comunicando? Você repassa suas observações para a nave Engi e eles agradecem.</text>
 			<autoReward level="LOW">augment</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="ADV_SCANNERS">
-		<text>(Long-Ranged Scanners) Scan the monstrosity.</text>
+		<text>(Scanners de Longo Alcance) Scannear a monstruosidade.</text>
 		<event>
-			<text>You detect a faint, arrhythmic sub-wave pattern. Could the creature be communicating? You forward your observations to the Engi vessel and they thank you in turn.</text>
+			<text>Você detecta um padrão ondular arrítmico e franco. Será que a criatura está se comunicando? Você repassa suas observações para a nave Engi e eles agradecem.</text>
 			<autoReward level="LOW">augment</autoReward>
 		</event>
 	</choice>
@@ -228,25 +228,25 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 
 
 <event name="ENGI_SURRENDER" unique="true">
-	<text>An Engi ship in the vicinity, seeing you jump in armed to the teeth, immediately broadcasts its surrender: "Subject goal: wealth. Engi motivation: survival. Transfer of goods acceptable?"</text>
+	<text>Uma nave Engi na vizinhaça, ao perceber você chegar armado até os dentes, imediatamente comunica sua rendição: "Objetivo: riquezas. Motivação: sobrevivência. Transferência de recursos aceitável?"</text>
 	<choice hidden="true">
-		<text>Explain that you're friendly.</text>
+		<text>Explicar que você é amigável.</text>
 		<event load="ENGI_SURRENDER_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>Accept their offer of surrender.</text>
+		<text>Aceitar a oferta de rendição.</text>
 		<event>
-			<text>The Engi obediently transfer over the goods and get on their way. Money for nothing.</text>
+			<text>Eles obedientemente transferem os recursos e vão embora. Dinheiro na faixa.</text>
 			<autoReward level="RANDOM">standard</autoReward>
 		</event>
 	</choice>
 </event>
 <eventList name="ENGI_SURRENDER_LIST">
 	<event>
-		<text>The Engi seem relieved, and eager to get underway. They set off without saying goodbye.</text>
+		<text>Eles parecem aliviados, e ansiosos para partir. Eles vão embora sem dizer adeus.</text>
 	</event>
 	<event>
-		<text>The Engi are satisfied with your explanation. "Beneficial. Subject goal: long, long journey. Remains compatible with transfer of goods from Engi." They send over the gear willingly, and you feel better for it.</text>
+		<text>Eles ficam satisfeitos com sua explicação. "Benéfico. Objetivo: viajem muito, muito longa. Recursos compatíveis com transferência." Eles enviam de boa vontade, e você fica feliz com isso.</text>
 		<autoReward level="RANDOM">standard</autoReward>
 	</event>
 </eventList>
