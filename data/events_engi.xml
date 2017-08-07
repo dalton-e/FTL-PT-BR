@@ -530,35 +530,35 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 ------------>
 
 <event name="ENGI_UNLOCK_1" unique="true">
-	<text>You arrive near a small fleet of civilian Engi ships. A simple decryption and translation of their comm frequency tells you that they are having a frantic discussion about something obviously troubling them.</text> 
+	<text>Você chega próximo a uma pequena frota de naves civis Engi. Uma simples decriptação e tradução da frequência de comunicação deles revela que eles estão numa discussão acalorada sobre algo que os pertuba.</text> 
 	<choice>
-		<text>Message them and ask if you can help.</text>
+		<text>Enviar uma mensagem perguntando se você pode ajudar.</text>
 		<event>
-			<text>Slightly shocked at your question, their leader quickly responds, "Declined offer with apologetic gratitude. Topic of discussion private matter, no concern of Federation."</text>
+			<text>Meio surpreso com a sua pergunta, o líder deles prontamente responde: "Oferta recusada com humilde gratidão. Assunto da discussão é particular, não diz respeito à Federação."</text>
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore it and move on.</text>
+		<text>Ignorar e seguir em frente.</text>
 		<event>
-			<text>You can't help but wonder what they were discussing as you prepare to jump.</text>
+			<text>Você fica imaginando o que eles estavam discutindo a medida que você se prepara para saltar.</text>
 		</event>
 	</choice>
 	<choice req="engi" hidden="true">
-		<text>(Engi Crew) Have your Engi crewmember contact them.</text>
+		<text>(Tripulante Engi) Pedir ao seu tripulante Engi para falar com eles.</text>
 		<event>
-			<text>Your crewmember syncs with the comm unit to communicate with them directly. You offer your help and a summary of the ship's mission. They respond, "Our goals have analogous elements. However, not all available for disclosure, discretion necessary."</text>
+			<text>Seu tripulante sincroniza na frequência deles para se comunicar diretamente. Você oferece ajuda e explica brevemente sua missão. Eles respondem: "Nossos objetivos têm pontos parecidos. Entretanto, nem tudo está aberto à discussão, discrição necessária."</text>
 			<choice>
-				<text>Offer your help.</text>
+				<text>Oferecer ajuda.</text>
 				<event>
-					<text>"Secret technologies stolen by Mantis. Implicit connection to Rebels. Implicit. Tracked Mantis to hidden Rebel base, uploading coordinates."</text>
+					<text>"Tecnologias secretas roubadas pelos Mantis. Conexão implícita com os Rebeldes. Implícita. Seguimos Mantis até base Rebelde escondida, transferindo coordenadas."</text>
 					<quest event="ENGI_UNLOCK_2REAL"/>
 					<choice>
-						<text>Continue...</text>
+						<text>Continuar...</text>
 						<event>
 							<quest event="ENGI_UNLOCK_2FAKE"/>
-							<text>"However, tracked second ship to different base. Would calculate probability but data insufficient. Cannot risk obvious Rebel-Engi conflict. Also, need time to acquire military ships. Assist in finding technology?"</text>
+							<text>"Entretanto, rastreamos segunda nave para base diferente. Calcularíamos probabilidade mas dados insuficientes. Não podemos arriscar conflito com Rebeldes. Além disso, precisamos de tempo para conseguir naves militares. Ajuda achar  tecnologia?"</text>
 							<choice>
-								<text>Agree.</text>
+								<text>Concordar.</text>
 								<event/>
 							</choice>
 						</event>
