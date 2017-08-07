@@ -266,19 +266,19 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	<ship load="MANTIS_FIGHT" hostile="true"/>
 </event>
 <textList name="ENGI_MANTIS_FIGHT">
-	<text>A mixed radar signal turns out to be a Mantis attack ship scavenging the remains of an Engi carrier. They turn and fight.</text>
-	<text>You come across a Mantis raider taking pot shots at a defenceless Engi supply station. Discovering its weapons aren't much of a match for the station's armour, it turns on your ship. Battle stations!</text>
-	<text>The area looks clear, and you prepare to jump off, but a Mantis scout jumps in behind you! They're as surprised as you are, but their weapons are already online.</text>
-	<text>You find a Mantis ship harrying a small squad of Engi. They make it to the node and jump off, leaving you toe to toe with their pursuer!</text>
+	<text>Um indistinto sinal de radar se mostra ser uma nave de ataque Mantis procurando os resquícios de um cargueiro Engi. Eles se voltam para você e lutam.</text>
+	<text>Você cruza com um saqueador Mantis disparando a esmo contra uma indefesa estação de suprimento Engi. Ao descobrir que suas armas não são páreo para a blindagem da estação, eles se voltam para você. Estações de batalha!</text>
+	<text>A área parece limpa e você se prepara para saltar, mas um batedor Mantis aparece atrás de você! Eles estão tão surpresos quanto, mas mesmo assim já estão com as armas preparadas.</text>
+	<text>Você encontra uma nave Mantis pertubando uma pequena esquadra Engi. Os Engi conseguem saltar e vão embora, deixando você para encarar o pertubardor!</text>
 </textList>
 
 <event name="ENGI_REBEL_FIGHT">
-	<text>The rebel fighter here would seem to suggest elements of the rebel fleet are already making incursions on Engi space. You move to engage.</text>
+	<text>O caça rebelde aqui parece sugerir que integrantes da frota rebelde já estão em incursão dentro do espaço Engi. Você se move para enfretá-lo.</text>
 	<ship load="REBEL" hostile="true"/>
 </event>
 
 <event name="ENGI_PIRATE_FIGHT">
-	<text>There must have been rich pickings for pirates around here up until war broke out. The pirate you encounter here looks worn down, but hungry. You'll have to fight!</text>
+	<text>Deveria existir por aqui alvos valiosos para os piratas antes de a guerra começar. O pirata que você encontrou parece esgotado, mas faminto. Você terá que lutar!</text>
 	<ship load="PIRATE" hostile="true"/>
 </event>
 
@@ -291,62 +291,62 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 ------------>
 
 <event name="ENGI_STATION_DISTRESS" unique="false">
-	<text>You receive a distress call from a nearby Engi ship. "Assistance requested. Danger present. Imminent destruction."</text>
+	<text>Você recebe um pedido de socorro de uma nave Engi próxima. "Assistência requerida. Perigo presente. Destruição iminente."</text>
 	<choice>
-		<text>Respond to the call and move in to assist.</text>
+		<text>Responder o pedido e se mover para ajudar.</text>
 		<event load="ENGI_STATION_DISTRESS_LIST"/>
 	</choice>
 	<choice>
-		<text>Keep your distance.</text>
+		<text>Manter a distância.</text>
 		<event/>
 	</choice>
 </event>
 <eventList name="ENGI_STATION_DISTRESS_LIST">
 	<event>
-		<text>You receive another message from the ship, this time with a Mantis at the comm-log. "Foolish meatsacks," he yells. Sensors indicate the ship is moving in to attack and boarders teleport from the station.</text>
+		<text>Você recebe outra mensagem da nave, dessa vez com um Mantis no monitor. "Criaturas estúpidas," ele grita. Os sensores indicam que a nave está se movendo para atacar e invasores teleportam da estação.</text>
 		<ship load="ENGI_MANTIS_CONTROLLED" hostile="true"/>
 		<boarders min="1" max="2" class="mantis"/>
 	</event>
 	<event>
-		<text>You approach to find a Mantis ship assaulting a small Engi space station. You prepare for a fight!</text>
+		<text>Você se aproxima e vê uma nave Mantis atacando uma pequena estação espacial Engi. Você se prepara para lutar!</text>
 		<ship load="MANTIS_ENGI_STATION" hostile="true"/>
 	</event>
 </eventList>
 <eventList name="SAVE_ENGI_STATION">
 	<event>
-		<text>The Engi station is stripped bare and there are signs of a fierce battle. The Mantis must have left the distress call active to lure other ships into a trap.</text>
+		<text>A estação Engi foi desmantelada e há sinais de uma violenta batalha. Os Mantis devem ter deixado o pedido de socorro ativo para atrair outras naves para uma armadilha.</text>
 	</event>
 	<event>
-		<text>The station was in the process of being evacuated. A number of civilian Engi offer their gratitude as they finalize their preparations to leave. They offer some fuel as a reward.</text>
+		<text>A estação estava em processo de ser evacuada. Um grupo de civis Engi oferecem expressam gratidão enquanto finalizam os preparativos para partir. Eles oferecem um pouco de combustível como recompensa.</text>
 		<autoReward level="MED">fuel_only</autoReward>
 	</event>
 	<event>
-		<text>The station hails you, "Gratitude. Expected probability of defeat without assistance... 86.2 percent. Request suitable reward."</text>
+		<text>A estação entra em contato: "Gratidão. Probabilidade esperada de derrota sem assistência... 86.2 porcento. Peça recompensa apropriada."</text>
 		<choice hidden="true">
-			<text>Request fuel.</text>
+			<text>Pedir combustível.</text>
 			<event>
-				<text>"Request granted. Fuel transferring."</text>
+				<text>"Pedido aceito. Transferindo combustível."</text>
 				<autoReward level="HIGH">fuel</autoReward>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Request weapon.</text>
+			<text>Pedir arma.</text>
 			<event>
-				<text>"Request granted. Weapon transferring."</text>
+				<text>"Pedido aceito. Transferindo arma."</text>
 				<autoReward level="LOW">weapon</autoReward>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Request drone.</text>
+			<text>Pedir drone.</text>
 			<event>
-				<text>"Request granted. Drone schematic transferring."</text>
+				<text>"Pedido aceito. Transferindo esquema de drone."</text>
 				<autoReward level="LOW">drone</autoReward>
 			</event>
 		</choice>
 		<choice req="engi" hidden="true">
-			<text>(Engi Crew) Threat unresolved. Current mission imperative: Protocol 52.34.</text>
+			<text>(Tripulante Engi) Ameaça não resolvida. Atual comando da missão: Protocolo 52.34.</text>
 			<event>
-				<text>They respond, "Understood. Re-establishment of Federation highest import. Transmitting hidden base coordinates. Repairing hull and attaching ship to ship ordnance."</text>
+				<text>Eles respondem: "Entendido. Restabelecimento de suma importância da Federação. Transmitindo coordenadas da base escondida. Reparando a fuselagem e instalando aparato ofensivo."</text>
 				<autoReward level="LOW">weapon</autoReward>
 				<quest event="HIDDEN_FEDERATION_BASE_LIST"/>
 				<damage amount="-10"/>
@@ -354,7 +354,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		</choice>
 	</event>
 	<event>
-		<text>They thank you for the assistance and when you tell them of your mission, one of the Engi asks if he can assist your crew. You welcome him aboard.</text>
+		<text>Eles agradecem pela assistência e quando você conta sobre sua missão, um dos Engi pergunta se pode ajudar. Você o recebe a bordo.</text>
 		<crewMember amount="1" class="engi"/>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
@@ -368,43 +368,43 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 ------------>
 
 <event name="DISTRESS_ENGI_REBEL" unique="true">
-	<text>The distress signal originates from a small Engi ship under attack by a rebel fighter - but when the Rebels see Federation markings they turn to attack!</text> 
+	<text>O pedido de socorro vem de uma pequena nave Engi sob ataque de um caça rebelde, mas quando os Rebeldes notam o símbolo da Federação, eles se viram para atacar!</text> 
 	<distressBeacon/>
 	<ship load="DISTRESS_ENGI_REBEL" hostile="true"/>
 </event>
 <event name="DISTRESS_ENGI_REBEL_RESULT">
-	<text>The Engi vessel turns out to be very poorly equipped - barely a runabout, really. They're trying to outrun the Rebels, and need all the help they can get.</text>
+	<text>A nave Engi se mostra terrivelmente equipada, praticamente uma carroça (sério). Eles estão tentando escapar dos Rebeldes e precisam de toda ajuda que puderem conseguir.</text>
 	<choice hidden="true">
-		<text>Give them 25 scrap.</text>
+		<text>Entregar 25 peças de sucata.</text>
 		<event load="DISTRESS_ENGI_REBEL_LIST1"/>
 	</choice>
 	<choice hidden="true">
-		<text>Give them 40 scrap, 2 missiles and 2 fuel.</text>
+		<text>Entregar 40 peças de sucata, 2 mísseis e 2 unidades de combustível.</text>
 		<event load="DISTRESS_ENGI_REBEL_LIST2"/>
 	</choice>
 	<choice hidden="true">
-		<text>Give them nothing.</text>
+		<text>Entregar nada.</text>
 		<event>
-			<text>Engi can't feel fear, so they bear you no ill will when you explain you're unwilling to help. They set off on their journey and you do the same.</text>
+			<text>Os Engi não sentem medo, então eles não te desejam mal quando você explica que não quer ajudar. Eles seguem o caminho deles e você faz o mesmo.</text>
 		</event>
 	</choice>
 </event>
 <eventList name="DISTRESS_ENGI_REBEL_LIST1">
 	<event>
-		<text>The words they use are "Need = fulfilled", but you take it for gratitude. They take the next jump in their long journey home.</text>
+		<text>As palavras que eles usam são: "Necessidade = satisfeita", mas você considera por gratidão. Eles dão mais um salto na longa jornada de volta para casa.</text>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>The Engi are grateful. They don't have any supplies or weapons to spare, but they do send over a self-teleporting med-bot disperser they hope they won't need.</text>
+		<text>Os Engi estão agradecidos. Eles não têm nenhum suprimento ou arma sobrando, mas eles enviam um dispensário de unidades médicas que se auto-teleportam que eles esperam que não faça falta.</text>
 		<weapon name="BOMB_HEAL"/>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>The Engi are grateful. They don't have much by way of supplies but they do offer a drone schematic for your use.</text>
+		<text>Os Engi estão agradecidos. Eles não têm muitos suprimentos mas mesmo assim oferecem um esquema de drone para você usar.</text>
 		<drone name="RANDOM"/>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
@@ -412,7 +412,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	</event>
 </eventList>
 <event name="DISTRESS_ENGI_REBEL_LIST2">
-	<text>They wouldn't get more than a few jumps with that load-out. You provide them with all the munitions and supplies they should need for the journey home. "Generosity magnitude unpredicted. Well-being syntax error [value too high]. Accept this token."</text>
+	<text>Eles não conseguiriam fazer mais do que alguns saltos com a nave daquele jeito. Você fornece a eles toda munição e suprimento que possam precisar na viagem para casa. "Tamanha generosidade inesperada. Erro de sintaxe para bem-estar [valor muito alto]. Aceite esse presente."</text>
 	<item_modify>
 		<item type="scrap" min="-40" max="-40"/>
 		<item type="fuel" min="-2" max="-2"/>
@@ -424,45 +424,45 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		
 		
 <event name="DISTRESS_ENGI_REACTOR" unique="true">
-	<text>You arrive at a smoldering Engi research station, its distress call unanswered - attacked by pirates or Mantis most likely. There may be someone left alive, or else something of value left on board.</text>
+	<text>Você chega em uma estação de pesquisa Engi arrasada pelas chamas, seu pedido de socorro não fora respondido - atacada por piratas ou provavelmente pelos Mantis. Talvez haja alguém vivo, ou talvez alguma coisa de valor deixada a bordo.</text>
 	<distressBeacon/>
 	<choice hidden="true">
-		<text>Board the station.</text>
+		<text>Entrar na estação.</text>
 		<event load="DISTRESS_ENGI_REACTOR_LIST1"/>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore it.</text>
+		<text>Ignorar.</text>
 		<event>
-			<text>The place looks in bad state, probably nothing of use there. Time to move on.</text>
+			<text>O lugar parece devastado, provavelmente nada de útil por lá. Hora de partir.</text>
 		</event>
 	</choice>
 	<choice hidden="true" req="sensors" lvl="2">
-		<text>(Improved Sensors) Run another scan.</text>
+		<text>(Sensores Melhorados) Realizar outra varredura.</text>
 		<event load="DISTRESS_ENGI_REACTOR_SCAN"/>
 	</choice>
 	<choice hidden="true" req="ADV_SCANNERS">
-		<text>(Long Ranged Scanners) Run another scan.</text>
+		<text>(Scanners de Longo Alcance) Realizar outra varredura.</text>
 		<event load="DISTRESS_ENGI_REACTOR_SCAN"/>
 	</choice>
 </choice>
 <eventList name="DISTRESS_ENGI_REACTOR_LIST1">
 	<event>
-		<text>You send an away team to investigate, but there's nothing save for the acidic stench of burnt Engi parts. This place is dead.</text>
+		<text>Você envia uma equipe para investigar, mas não há nada exceto pelo fedor ácido do equipamento Engi queimado. Esse lugar já era.</text>
 	</event>
 	<event>
-		<text>Your away team reports a wounded Engi and a functioning drone schematic. Then someone yells. The station reactor is overloading and they're running out of time!</text>
+		<text>Sua equipe informa sobre um Engi ferido e um esquema de drone funcional. Então alguém grita. O reator da estação está sobrecarregando e não há tempo a perder!</text>
 		<choice hidden="true">
-			<text>Save the Engi!</text>
+			<text>Salvar o Engi!</text>
 			<event load="DISTRESS_ENGI_REACTOR_ENGI"/>
 		</choice>
 		<choice hidden="true">	
-			<text>Save the drone schematic.</text>
+			<text>Salvar o esquema de drone.</text>
 			<event load="DISTRESS_ENGI_REACTOR_DRONE"/>
 		</choice>
 		<choice hidden="true">
-			<text>Save yourselves!</text>
+			<text>Salvem a si mesmos!</text>
 			<event>
-				<text>It's a tough order, but your crew's lives are the priority. They drop everything and return to the ship unharmed. You put some distance on the station before it blows.</text>
+				<text>É uma ordem difícil mas a vida da sua equipe é prioridade. Eles largam tudo e retornam à nave sãos e salvos. Depois de se afastar um pouco você vê a estação explodir.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event>
 		</choice>
@@ -470,54 +470,54 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 </eventList>
 <eventList name="DISTRESS_ENGI_REACTOR_ENGI">
 	<event>
-		<text>One of your crew valiantly grabs the Engi and throws it into the airlock right before the reactor blows and the automatic blast doors slam shut. You have no choice but to mourn their sacrifice and move on.</text>
+		<text>Um de seus tripulantes valentemente agarra o Engi e o joga para a câmara de ar logo antes do reator explodir e a porta blindada ser selada. Você não tem escolha a não ser lamentar seu sacrifício e seguir em frente.</text>
 		<removeCrew>
 			<clone>true</clone>
-			<text>The brave crewmember's clone strides from the Clone Bay, rather full of themself after such a heroic act.</text>
+			<text>O corajoso clone do tripulante sai da Câmara de Clonagem, orgulhoso de si mesmo após um ato tão heroico.</text>
 		</removeCrew>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>Continuar...</text>
 			<event>
-				<text>The Engi who was saved offers to join your crew.</text>
+				<text>O Engi salvo se oferece para se juntar a sua tripulação.</text>
 				<crewMember amount="1" class="engi"/>  
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your crew return safely to the airlock with the injured Engi and you put some distance on the station before it blows. The Engi, impressed by your crew, volunteers to join you.</text>
+		<text>Sua tripulação retorna sã e salva para a nave carregando consigo o Engi ferido. Depois de se afastar um pouco você vê a estação explodir. O Engi, impressionado com sua tripulação, se voluntaria para se juntar a você.</text>
 		<crewMember amount="1" class="engi"/>  
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 </eventList>
 <eventList name="DISTRESS_ENGI_REACTOR_DRONE">
 	<event>
-		<text> Your away team heads home with the goods, but as they transfer back to the ship a small explosion blows the airlock and one of the crew is sucked out into space!</text>
+		<text>Sua equipe volta à nave com os suprimentos, mas enquanto faziam a transferência uma pequena explosão detona a câmara de ar e um membro da tripulação é sugado para o espaço!</text>
 		<removeCrew>
 			<clone>true</clone>
-			<text>Fortunately, your crewmember was close enough to the ship for the Clone Bay to revive them.</text>
+			<text>Felizmente, o membro da equipe estava perto o bastante da nave para a Câmara de Clonagem revivê-lo.</text>
 		</removeCrew>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>The Engi don't feel things the same way other species do. They'd want the tech to be saved. Your crew return safely to the airlock with the drone control and you put some distance on the station before it blows.</text>
+		<text>Os Engi não sentem as coisas da mesma forma que as outras espécies. Eles desejariam que a tecnologia fosse salva. Sua equipe retorna sã e salva para a nave levando consigo o drone. Depois de se afastar um pouco você vê a estação explodir.</text>
 		<autoReward level="LOW">drone</autoReward>
 	</event>
 </eventList>
 <event name="DISTRESS_ENGI_REACTOR_SCAN">
-	<text>Scans reveal the station's reactor is overloading! Not only that, but an injured Engi and a functioning drone schematic are still on board! There's not time for both...</text>
+	<text>A varredura releva que o reator da estação está sobrecarregando! E não apenas isso, mas um Engi ferido e uma esquema de drone ainda estão a bordo! Não há tempo para salvar os dois...</text>
 	<choice hidden="true">
-		<text>Save the Engi!</text>
+		<text>Salvar o Engi!</text>
 		<event>
-			<text>Your away team heads straight for the Engi and returns with time to spare. You put some distance on the station before it blows and the Engi is so impressed by your crew that they volunteer to join you!</text>
+			<text>Sua equipe corre direto para o Engi e volta com tempo de sobra. Depois de se afastar um pouco você vê a estação explodir e o Engi fica tão impressionado com sua tripulação que se voluntaria para se juntar a você!</text>
 			<crewMember amount="1" class="engi"/>  
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Save the Drone Schematic!</text>
+		<text>Salvar o Esquema de Drone!</text>
 		<event>
-			<text>The Engi don't feel things the same way other species do. They'd want the tech to be saved. Your away team heads straight for the goods and returns with time to spare. You put some distance on the station before it blows.</text>
+			<text>Os Engi não sentem as coisas da mesma forma que as outras espécies. Eles desejariam que a tecnologia fosse salva. Sua equipe corre direto para o equipamento e volta com tempo de sobra. Depois de se afastar um pouco você vê a estação explodir.</text>
 			<autoReward level="LOW">drone</autoReward>
 		</event>
 	</choice>
