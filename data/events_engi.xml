@@ -145,14 +145,14 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	<text load="NOTHING_ENGI"/>
 </event>
 <textList name="NOTHING_ENGI">
-	<text>O complexo arranjo de fuselagens e capacitores FTL flutuando abandonados no espaço sugerem que os Engi estiveram aqui há pouco tempo; mas não estão mais.</text>
+	<text>O complexo arranjo de fuselagens e capacitores FTL flutuando abandonados no espaço sugere que os Engi estiveram aqui há pouco tempo; mas não estão mais.</text>
 	<text>Você chega em um planeta verde com grande planícies e cachoeiras. Seria de pouco interesse para os Engi próximos.</text>  <!-- JUSTIN TO DO-  MAKE GREEN PLANET-->
 	<text>Você chegou próximo a um pátio de construção Engi. A maioria dos Engi mantêm-se sobre dois pés pela força do hábito mas aqui você vê alguns deles trabalhando unidos para criar massivas máquinas orgânicas especializadas em construir naves. Realmente uma visão e tanto.</text>
 	<text>Mesmo apensar de cada "indivíduo" Engi ser formado por trilhões de nano-robôs, a cultura deles gira em torno de interações sociais tradicionais. Uma estação próxima parece ter sido construída para entretenimento de viajantes Engi.</text>
-	<text>Você algumas estações espaciais e frotas Engi por perto. Apesar de parecerem um monte de sucatas velhas coladas umas nas outras, são na verdade um modelo de eficiência. Eles só não têm noção estética em suas construções.</text>
-	<text>Esse sistema aparente ser bem pacífico. Você não tem certeza de quanto tempo isso vai durar devido às ameaças combinadas dos Rebeldes e dos Mantis.</text>
-	<text>Existem algumas naves comerciantes passando pela área mesmo com a ameaça de invasão Mantisw. Sem dúvidas em busca de comprar a tecnologia eficiente dos Engi.</text>
-	<text>Você avista um pequeno cargueiro Rebelde à distância. Você disfarça e tenta se misturar com o restante do tráfego. Entretanto, é surpreendente avistar uma nave militar Rebelde sozinha em território Engi.</text>
+	<text>Você avista algumas estações espaciais e frotas Engi por perto. Apesar de parecerem um monte de sucatas velhas coladas umas nas outras, são na verdade um modelo de eficiência. Eles só não têm noção estética em suas construções.</text>
+	<text>Esse sistema aparenta ser bem pacífico. Você não tem certeza de quanto tempo isso vai durar devido às ameaças combinadas dos Rebeldes e dos Mantis.</text>
+	<text>Existem algumas naves comerciantes passando pela área mesmo com a ameaça de invasão Mantis. Sem dúvidas em busca de comprar a tecnologia eficiente dos Engi.</text>
+	<text>Você avista um pequeno cargueiro Rebelde à distância. Você disfarça e tenta se misturar com o restante do tráfego. Entretanto, é surpreendente avistar uma nave militar Rebelde sozinha em espaço Engi.</text>
 	<text>Os Engi parecem ter evitado esse ponto em particular, junto com todas as outras formas de vida. Você mantém os olhos abertos, mas liga o motor FTL em todo caso.</text>
 	<text>Um conjunto de satélites Engi em órbita de um planeta próximo são a única pista de que a espécie mecânica esteve por aqui. Você tem outros lugares para ir.</text>
 </textList>
@@ -181,7 +181,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 </textList>
 
 <event name="ENGI_FLEET_DELAY" unique="true">
-	<text>Você percebe uma colônia Engi se escondendo do outro lado de uma lua próxima. Na real eles estão escavando um depósito de equipamentos da guerra entre a Federação e os Mantis, e sugerem que talvez isso possa ser usado para atrair a atenção da frota rebelde.</text>
+	<text>Você percebe uma colônia Engi se escondendo do outro lado de uma lua próxima. Na real, eles estão escavando um depósito de equipamentos da guerra entre a Federação e os Mantis, e sugerem que talvez isso possa ser usado para atrair a atenção da frota rebelde.</text>
 	<choice>
 		<text>Armar uma carga explosiva no depósito.</text>
 		<event>
@@ -211,14 +211,14 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	<choice hidden="true" req="sensors" lvl="3">
 		<text>(Sensores Melhorados) Scannear a monstruosidade.</text>
 		<event>
-			<text>Você detecta um padrão ondular arrítmico e franco. Será que a criatura está se comunicando? Você repassa suas observações para a nave Engi e eles agradecem.</text>
+			<text>Você detecta um padrão ondular arrítmico e fraco. Será que a criatura está se comunicando? Você repassa suas observações para a nave Engi e eles agradecem.</text>
 			<autoReward level="LOW">augment</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="ADV_SCANNERS">
 		<text>(Scanners de Longo Alcance) Scannear a monstruosidade.</text>
 		<event>
-			<text>Você detecta um padrão ondular arrítmico e franco. Será que a criatura está se comunicando? Você repassa suas observações para a nave Engi e eles agradecem.</text>
+			<text>Você detecta um padrão ondular arrítmico e fraco. Será que a criatura está se comunicando? Você repassa suas observações para a nave Engi e eles agradecem.</text>
 			<autoReward level="LOW">augment</autoReward>
 		</event>
 	</choice>
@@ -246,7 +246,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		<text>Eles parecem aliviados, e ansiosos para partir. Eles vão embora sem dizer adeus.</text>
 	</event>
 	<event>
-		<text>Eles ficam satisfeitos com sua explicação. "Benéfico. Objetivo: viajem muito, muito longa. Recursos compatíveis com transferência." Eles enviam de boa vontade, e você fica feliz com isso.</text>
+		<text>Eles ficam satisfeitos com sua explicação. "Benéfico. Objetivo: viagem muito, muito longa. Recursos compatíveis com transferência." Eles enviam de boa vontade, e você fica feliz com isso.</text>
 		<autoReward level="RANDOM">standard</autoReward>
 	</event>
 </eventList>
@@ -267,9 +267,9 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 </event>
 <textList name="ENGI_MANTIS_FIGHT">
 	<text>Um indistinto sinal de radar se mostra ser uma nave de ataque Mantis procurando os resquícios de um cargueiro Engi. Eles se voltam para você e lutam.</text>
-	<text>Você cruza com um saqueador Mantis disparando a esmo contra uma indefesa estação de suprimento Engi. Ao descobrir que suas armas não são páreo para a blindagem da estação, eles se voltam para você. Estações de batalha!</text>
+	<text>Você cruza com um saqueador Mantis disparando a esmo contra uma indefesa estação de suprimentos Engi. Ao descobrir que suas armas não são páreo para a blindagem da estação, eles se voltam para você. Estações de batalha!</text>
 	<text>A área parece limpa e você se prepara para saltar, mas um batedor Mantis aparece atrás de você! Eles estão tão surpresos quanto, mas mesmo assim já estão com as armas preparadas.</text>
-	<text>Você encontra uma nave Mantis pertubando uma pequena esquadra Engi. Os Engi conseguem saltar e vão embora, deixando você para encarar o pertubardor!</text>
+	<text>Você encontra uma nave Mantis pertubando uma pequena esquadra Engi. Os Engi conseguem saltar e vão embora, deixando você para encarar o perturbador!</text>
 </textList>
 
 <event name="ENGI_REBEL_FIGHT">
@@ -339,7 +339,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		<choice hidden="true">
 			<text>Pedir drone.</text>
 			<event>
-				<text>"Pedido aceito. Transferindo esquema de drone."</text>
+				<text>"Pedido aceito. Transferindo projeto de drone."</text>
 				<autoReward level="LOW">drone</autoReward>
 			</event>
 		</choice>
@@ -379,7 +379,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		<event load="DISTRESS_ENGI_REBEL_LIST1"/>
 	</choice>
 	<choice hidden="true">
-		<text>Entregar 40 peças de sucata, 2 mísseis e 2 unidades de combustível.</text>
+		<text>Entregar 40 peças de sucata, 2 mísseis e 2 células de combustível.</text>
 		<event load="DISTRESS_ENGI_REBEL_LIST2"/>
 	</choice>
 	<choice hidden="true">
@@ -397,14 +397,14 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		</item_modify>
 	</event>
 	<event>
-		<text>Os Engi estão agradecidos. Eles não têm nenhum suprimento ou arma sobrando, mas eles enviam um dispensário de unidades médicas que se auto-teleportam que eles esperam que não faça falta.</text>
+		<text>Os Engi estão agradecidos. Eles não têm nenhum suprimento ou arma sobrando, mas eles enviam um dispensário de unidades médicas que se auto-teleportam que eles esperam que não os faça falta.</text>
 		<weapon name="BOMB_HEAL"/>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>Os Engi estão agradecidos. Eles não têm muitos suprimentos mas mesmo assim oferecem um esquema de drone para você usar.</text>
+		<text>Os Engi estão agradecidos. Eles não têm muitos suprimentos mas mesmo assim oferecem um projeto de drone para você usar.</text>
 		<drone name="RANDOM"/>
 		<item_modify>
 			<item type="scrap" min="-25" max="-25"/>
@@ -412,7 +412,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	</event>
 </eventList>
 <event name="DISTRESS_ENGI_REBEL_LIST2">
-	<text>Eles não conseguiriam fazer mais do que alguns saltos com a nave daquele jeito. Você fornece a eles toda munição e suprimento que possam precisar na viagem para casa. "Tamanha generosidade inesperada. Erro de sintaxe para bem-estar [valor muito alto]. Aceite esse presente."</text>
+	<text>Eles não conseguiriam fazer mais do que alguns saltos com a nave daquele jeito. Você fornece a eles toda munição e suprimento que possam precisar na viagem para casa. "Tamanha generosidade inesperada. Erro de sintaxe para bem-estar [valor muito alto]. Aceite este presente."</text>
 	<item_modify>
 		<item type="scrap" min="-40" max="-40"/>
 		<item type="fuel" min="-2" max="-2"/>
@@ -450,13 +450,13 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		<text>Você envia uma equipe para investigar, mas não há nada exceto pelo fedor ácido do equipamento Engi queimado. Esse lugar já era.</text>
 	</event>
 	<event>
-		<text>Sua equipe informa sobre um Engi ferido e um esquema de drone funcional. Então alguém grita. O reator da estação está sobrecarregando e não há tempo a perder!</text>
+		<text>Sua equipe informa sobre um Engi ferido e um projeto de drone funcional. Então alguém grita. O reator da estação está sobrecarregando e não há tempo a perder!</text>
 		<choice hidden="true">
 			<text>Salvar o Engi!</text>
 			<event load="DISTRESS_ENGI_REACTOR_ENGI"/>
 		</choice>
 		<choice hidden="true">	
-			<text>Salvar o esquema de drone.</text>
+			<text>Salvar o projeto de drone.</text>
 			<event load="DISTRESS_ENGI_REACTOR_DRONE"/>
 		</choice>
 		<choice hidden="true">
@@ -470,10 +470,10 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 </eventList>
 <eventList name="DISTRESS_ENGI_REACTOR_ENGI">
 	<event>
-		<text>Um de seus tripulantes valentemente agarra o Engi e o joga para a câmara de ar logo antes do reator explodir e a porta blindada ser selada. Você não tem escolha a não ser lamentar seu sacrifício e seguir em frente.</text>
+		<text>Um de seus tripulantes valentemente agarra o Engi e o joga para a câmara de ar logo antes do reator explodir e a porta blindada fechar. Você não tem escolha a não ser lamentar seu sacrifício e seguir em frente.</text>
 		<removeCrew>
 			<clone>true</clone>
-			<text>O corajoso clone do tripulante sai da Câmara de Clonagem, orgulhoso de si mesmo após um ato tão heroico.</text>
+			<text>O corajoso clone do tripulante sai da Sala de Clonagem, orgulhoso de si mesmo após um ato tão heroico.</text>
 		</removeCrew>
 		<choice hidden="true">
 			<text>Continuar...</text>
@@ -495,7 +495,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		<text>Sua equipe volta à nave com os suprimentos, mas enquanto faziam a transferência uma pequena explosão detona a câmara de ar e um membro da tripulação é sugado para o espaço!</text>
 		<removeCrew>
 			<clone>true</clone>
-			<text>Felizmente, o membro da equipe estava perto o bastante da nave para a Câmara de Clonagem revivê-lo.</text>
+			<text>Felizmente, o membro da equipe estava perto o bastante da nave para a Sala de Clonagem revivê-lo.</text>
 		</removeCrew>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
@@ -505,7 +505,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	</event>
 </eventList>
 <event name="DISTRESS_ENGI_REACTOR_SCAN">
-	<text>A varredura releva que o reator da estação está sobrecarregando! E não apenas isso, mas um Engi ferido e uma esquema de drone ainda estão a bordo! Não há tempo para salvar os dois...</text>
+	<text>A varredura revela que o reator da estação está sobrecarregando! E não apenas isso, mas um Engi ferido e um projeto de drone ainda estão a bordo! Não há tempo para salvar os dois...</text>
 	<choice hidden="true">
 		<text>Salvar o Engi!</text>
 		<event>
@@ -515,7 +515,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Salvar o Esquema de Drone!</text>
+		<text>Salvar o Projeto de Drone!</text>
 		<event>
 			<text>Os Engi não sentem as coisas da mesma forma que as outras espécies. Eles desejariam que a tecnologia fosse salva. Sua equipe corre direto para o equipamento e volta com tempo de sobra. Depois de se afastar um pouco você vê a estação explodir.</text>
 			<autoReward level="LOW">drone</autoReward>
@@ -556,7 +556,7 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 						<text>Continuar...</text>
 						<event>
 							<quest event="ENGI_UNLOCK_2FAKE"/>
-							<text>"Entretanto, rastreamos segunda nave para base diferente. Calcularíamos probabilidade mas dados insuficientes. Não podemos arriscar conflito com Rebeldes. Além disso, precisamos de tempo para conseguir naves militares. Ajuda achar  tecnologia?"</text>
+							<text>"Entretanto, rastreamos segunda nave para base diferente. Calcularíamos probabilidade mas dados insuficientes. Não podemos arriscar conflito com Rebeldes. Além disso, precisamos de tempo para conseguir naves militares. Ajuda achar tecnologia?"</text>
 							<choice>
 								<text>Concordar.</text>
 								<event/>
