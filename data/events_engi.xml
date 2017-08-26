@@ -569,45 +569,45 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	</choice>
 </event>
 <event name="ENGI_UNLOCK_2FAKE">
-	<text>You arrive at one of the Rebel bases that the Engi told you about. It appears abandoned except for one scout ship. Perhaps you could extract information from them.</text>
+	<text>Você chega a uma das bases Rebeldes das quais os Engi falaram. Parece abandonada exceto por um batedor. Talvez você consiga extrair alguma informação deles.</text>
 	<ship load="REBEL_ENGI_UNLOCK_2FAKE" hostile="true"/>
 </event>
 <event name="ENGI_UNLOCK_2FAKE_SURRENDER">
-	<text>"Stop! I don't want to die here."</text>
+	<text>"Pare! Eu não quero morrer aqui."</text>
 	<choice>
-		<text>Demand information on the stolen technology.</text>
+		<text>Exigir informação sobre a tecnologia roubada.</text>
 		<event>
-			<text>"Ah, so that's what you're after. Too bad, you followed the wrong ship. The envoy that passed through here was a fake, to trick fools like you. Now let us go!"</text>
+			<text>"Ah, então é nisso que você está interessado. Que pena, você seguiu a nave errada. O enviado que passou por aqui era falso, para enganar tolos como você. Agora nos deixe ir!"</text>
 			<choice>
-				<text>Let them go.</text>
+				<text>Deixá-los ir.</text>
 				<event>
 					<ship hostile="false"/>
 				</event>
 			</choice>
 			<choice>
-				<text>Ignore him and attack.</text>
+				<text>Ignorá-lo e atacar.</text>
 				<event>
-					<text>"No, wait..." You cut the transmission and continue the assault.</text>
+					<text>"Não, espere..." Você corta a transmissão e continua o ataque.</text>
 				</event>
 			</choice>
 		</event>
 	</choice>
 </event>
 <event name="ENGI_UNLOCK_2REAL">
-	<text>You arrive at one of the Rebel bases that the Engi told you about. It appears abandoned except for one scout ship. Perhaps you could extract information from them.</text>
+	<text>Você chega a uma das bases Rebeldes das quais os Engi falaram. Parece abandonada exceto por um batedor. Talvez você consiga extrair alguma informação deles.</text>
 	<ship load="REBEL_ENGI_UNLOCK_2REAL" hostile="true"/>
 </event>
 <event name="ENGI_UNLOCK_2REAL_SURRENDER">
-	<text>"Stop! This isn't worth dying for..."</text>
+	<text>"Pare! Não vale a pena morrer por isso..."</text>
 	<choice>
-		<text>Demand information on the stolen technology.</text>
+		<text>Exigir informação sobre a tecnologia roubada.</text>
 		<event>
-			<text>"Of course, that's why you're here. Yes, they passed by here but I had nothing to do with it, I don't know what they were carrying. I'll transmit coordinates. Now just let us go..."</text>
+			<text>"Claro, é por isso que você está aqui. Sim, eles passaram por aqui mas eu não tenho nada a ver, não sei o que estavam carregando. Eu passarei as coordenadas. Agora, nos deixe partir..."</text>
 			<quest event="ENGI_UNLOCK_3"/>
 			<choice>
-				<text>Let them go.</text>
+				<text>Deixá-los ir.</text>
 				<event>
-					<text>You prepare an FTL message containing the coordinates to send to the Engi and get ready to jump.</text>
+					<text>Você cria uma mensagem contendo as coordenadas para enviar aos Engi e se prepara para saltar.</text>
 					<ship hostile="false"/>
 				</event>
 			</choice><!--   REMOVED THIS TO PREVENT DOUBLE QUESTS
@@ -621,23 +621,23 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	</choice>
 </event>
 <event name="ENGI_UNLOCK_3">
-	<text>You have finally caught up with the ships you've been hunting. A hangar-sized cargo ship is being escorted by a number of Mantis ships. As you reconsider the assault, a squadron of Engi ships with pirate emblems jump in and assist you. You prepare to fight the Mantis but scans indicate they are manned by Rebels!</text>
+	<text>Você finalmente alcançou as naves que estava caçando. Um cargueiro imenso está sendo escoltado por várias naves Mantis. Enquanto reconsidera a investida, um esquadrão de naves Engi com emblemas pirata aparece para ajudá-lo. Você se prepara para lutar contra os Mantis mas uma varredura revela que as naves estão sendo controladas pelos Rebeldes!</text>
 	<ship load="MANTIS_ENGI_UNLOCK_3" hostile="true"/>
 </event>
 <event name="ENGI_UNLOCK_4">
-	<text>The Engi emerge victorious from their battles with only minor losses. They message you, "Project X-ME56 commissioned by Federation military research division. Advanced stealth cruiser. Project finished during rebellion. Unable to reconnect with Federation military command."</text>
+	<text>Os Engi saem vitoriosos da batalha com apenas algumas baixas. Eles enviam uma mensagem: "Projeto X-ME56 commissionado pela divisão de pesquisa militar da Federação. Cruzador furtivo de última geração. Projeto finalizado durante a rebelião. Incapaz de se reconectar com o comando militar."</text>
 	<choice>
-		<text>Ask about the Mantis ships.</text>
+		<text>Perguntar das naves Mantis.</text>
 		<event>
-			<text>"Likely ploy by Rebels to avoid breaking non-aggression pact with Engi. 97.56 percent likely. Your mission to assist last Federation fleet, correct? Coordinates?"</text>
+			<text>"Provavelmente manobra dos Rebeldes para evitar quebrar pacto de não-agressão com Engi. 97.56 porcento de certeza. Sua missão é ajudar a última frota da Federação, certo? Coordenadas?"</text>
 			<choice hidden="true">
-				<text>Transmit coordinates of Federation command.</text>
+				<text>Transmitir as coordenadas do comando da Federação.</text>
 				<event>
-					<text>"Satisfactory. Delivery of tech will assist in Federation cause. Gratitude alone insufficient. Commencing ship repair and compensation." Their crews deliver an advanced augmentation for installation but you're more pleased to hear that the Federation will have an improved arsenal.</text>
+					<text>"Satisfatório. Entrega da tecnologia ajudará a causa da Federação. Somente gratidão não basta. Iniciando reparos e compensação." Os Engi entregam uma avançada melhoria mas você está mais satisfeito em ouvir que a Federação terá um arsenal mais robusto.</text>
 					<damage amount="-20"/>
 					<autoReward level="HIGH">standard</autoReward>
 					<augment name="SYSTEM_CASING"/>
-					<unlockShip id="1">The Engi secret tech has been delivered to the hangar. The stealth ship has been unlocked!</unlockShip>
+					<unlockShip id="1">A tecnologia secreta dos Engi foi entregue no hangar. A nave furtiva foi destravada!</unlockShip>
 				</event>
 			</choice>
 		</event>
