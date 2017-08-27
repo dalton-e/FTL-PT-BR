@@ -662,26 +662,26 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 	
 
 <event name="ENGI_SEX" unique="true">
-	<text>What appeared to be a single damaged ship is in fact two ships that have smashed into each other... there is a flurry of comm signals and damage, and it's hard to determine what occurred. The vessels appear to be... Engi? They look locked together by the impact and can't free themselves.</text>
+	<text>O que parecia ser uma única nave avariada na verdade são duas naves que colidiram uma na outra... há uma confusão de sinais de rádio e partes danificadas, é difícil determinar o que aconteceu. As naves aparentam ser dos... Engi? Elas parecem presas pelo impacto e não podem se separar.</text>
 	<choice hidden="true">
-		<text>Attempt to help the ships by prying them apart.</text>
+		<text>Tentar ajudar as naves a separarem-se.</text>
 		<event>
-			<text>To your surprise, one of the Engi vessels attacks! One ship detaches itself, surprisingly still quite whole, and opens fire - it looks like it's somehow identified you as hostile!</text>
+			<text>Para a sua surpresa, uma das naves o ataca! Ela consegue se separar, surpreendentemente quase inteira, e começa a atirar. Por algum motivo o identificou como hostil!</text>
 			<ship load="ENGI_SEX_SHIP" hostile="true"/>
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Ignore the damaged vessels.</text>
+		<text>Ignorar as naves danificadas.</text>
 		<event/>
 	</choice>
 	<choice req="engi">
-		<text>[Engi Crew] Have your Engi crewmember hail the vessel and assess the damage.</text>
+		<text>[Tripulante Engi] Pedir ao seu tripulante Engi para se comunicar com a nave e avaliar os danos.</text>
 		<event>
-			<text>Your Engi crewmember refuses. In a halting use of adjectives and nouns, followed by some animated holographic aids, the Engi explains the ships are... using each other to, loosely translated, "achieve a union." For some reason, this consolidation of ship matter sounds embarrassing and personal.</text>
+			<text>Seu tripulante Engi se nega a fazer. Numa explicação desengonçada, seguida por uma representação holográfica, o Engi explica que as naves estão... usando a si mesmas para, traduzindo em miúdos, "fazer uma união". Por alguma razão, essa junção das duas naves soa embaraçoso e pessoal.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>Continuar...</text>
 				<event>
-					<text>You elect to leave the two Engi ships... to their "business." After questioning your Engi crewmember, however, you do manage to salvage what scrap parts you can from the perimeter, even though you feel slightly dirty for doing so.</text>
+					<text>Você decide não se intrometer no "negócio" das duas naves Engi. No entanto, após conversar com seu tripulante, você consegue recuperar alguma sucata espalhada pelo perímetro, apesar de se sentir meio sujo por fazer isso.</text>
 					<autoReward level="MEDIUM">stuff</autoReward>
 				</event>
 			</choice>
@@ -690,22 +690,22 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 </event>
 <ship name="ENGI_SEX_SHIP" auto_blueprint="SHIPS_CIRCLE">
 	<destroyed>
-		<text>With the ship destroyed, the remaining Engi ship hails you frantically and explains the situation to you.</text>
+		<text>Com a nave destruída, a outra nave Engi envia uma mensagem frenética e explica a situação para você.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>Continuar...</text>
 			<event load="ENGI_SEX_SHIP_DONE"/>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the ship disabled, the remaining Engi ship hails you frantically and explains the situation to you.</text>
+		<text>Com a nave incapacitada, a outra nave Engi envia uma mensagem frenética e explica a situação para você.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>Continuar...</text>
 			<event load="ENGI_SEX_SHIP_DONE"/>
 		</choice>
 	</deadCrew>
 </ship>
 <event name="ENGI_SEX_SHIP_DONE">
-	<text>Apparently, you interrupted the equivalent of a "consolidation" of two ships that were using each other's parts to construct a new vessel. The Engi were not truly hostile, their targeting computers had not finished adjusting. There's nothing to be done about it now. You leave the remains for the surviving ship.</text>
+	<text>Aparentemente, você interrompeu o equivalente a uma "junção" das duas naves que estavam usando suas peças para constuir uma nova nave. Os Engi não estavam sendo hostis, os computadores deles ainda não tinham acabado de se ajustarem. Não há nada que se possa fazer agora. Você deixa o que sobrou para a outra nave.</text>
 </event>
 
 
