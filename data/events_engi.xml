@@ -711,35 +711,35 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 
 <!-- Right now you can get this more than once in a game.  Dunno how good that is -->
 <event name="ENGI_VIRUS" unique="true">
-	<text>The Engi are awaiting you at the beacon, with their weapons on-line! They explain a computer virus that is wanted for hostile acts against the Engi (multiple counts of binary scrambling, nano-dissolution, and variable interference) is aboard your vessel.</text>
+	<text>Os Engi estão aguardando você no local, com suas armas prontas! Eles explicam que um vírus de computador que é procurado por atos hostis contra os Engi (vários casos de ofuscação binária, nano-dissolução e interferência variável) está a bordo da sua nave.</text>
 	<choice>
-		<text>Continue...</text>
+		<text>Continuar...</text>
 		<event>
-			<text>They insist they must destroy your ship to prevent the virus from escaping!</text>
+			<text>Eles insistem que devem destruir sua nave para impedir que o vírus escape!</text>
 			<choice hidden="true">
-				<text>Hold on! Let us try to purge the system code!</text>
+				<text>Espere! Deixe-nos tentar deletar o código do sistema!</text>
 				<event>
-					<text>Wiping your engine core and shields proves useless... eventually you trap the virus in the weapons systems to purge it, but before you do, the Engi grow restless and attack!</text>
+					<text>Apagar seu motor e escudos foi inútil... mas finalmente você encurrala o vírus no sistema de armas para deletá-lo, mas antes que possa fazê-lo, os Engi ficam impacientes e atacam!</text>
 					<status type="divide" target="player" system="shields" amount="2"/>
 					<status type="divide" target="player" system="engines" amount="2"/>
 					<ship load="ENGI_VIRUS_SHIP" hostile="true"/>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Attack the Engi vessel!</text>
+				<text>Atacar a nave Engi!</text>
 				<event>
-					<text>The Engi be damned, no one threatens your ship. You prepare for a fight!</text>
+					<text>Malditos Engi, ninguém ameaça sua nave. Você se prepara para lutar!</text>
 					<ship load="ENGI_VIRUS_SHIP" hostile="true"/>
 				</event>
 			</choice>
 			<choice req="hacking" lvl="1" max_group="0" hidden="true">
-				<text>[Hacking System] Isolate and quarantine the virus.</text>
+				<text>[Sistema de Hacking] Isolar e pôr o vírus em quarentena.</text>
 				<event>
-					<text>It takes some time, and the virus is slippery, but you eventually confine it to a useless sub-system prison where it frantically begins calculating insults at you. You eject the system from the ship and then silence the little binary criminal with your weapons.</text>
+					<text>Leva algum tempo, e o vírus é escorregadio, mas finalmente você o confina em um sub-sistema inútil, onde ele freneticamente começa a calcular xingamentos a você. Você lança o sub-sistema no espaço e então silencia o pequeno criminoso binário com suas armas.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>Continuar...</text>
 						<event>
-							<text>The Engi thank you for deleting the virus, and jump away. They offer a unique ship augmentation as a reward.</text>
+							<text>Os Engi agradecem por você ter deletado o vírus e vão embora. Eles oferecem uma melhoria única como recompensa.</text>
 							<autoReward level="LOW">standard</autoReward>
 							<augment name="DRONE_SPEED"/>
 						</event>
@@ -747,19 +747,19 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 				</event>
 			</choice>
 			<choice req="hacking" lvl="2" max_group="0" hidden="true">
-				<text>[Improved Hacking] Reprogram the virus.</text>
+				<text>[Hacking Melhorado] Reprogramar o vírus.</text>
 				<event>
-					<text>You proceed to interface with the virus and optimize its repair and benevolence routines.</text>
+					<text>Você interfere com o vírus para otimizar suas rotinas benéficas e de reparação.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>Continuar...</text>
 						<event>
-							<text>After a few minutes, the virus "sees the light" and integrates itself in a positive manner with the computer society on your ship, repairing your hull and attempting to optimize your reactor.</text>
+							<text>Após alguns minutos, o vírus "enxerga a luz" e se acopla de uma maneira positiva no sistema computacional da sua nave, reparando a fuselagem e tentando otimizar o reator.</text>
 							<damage amount="-15"/>
 							<upgrade amount="1" system="reactor"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>Continuar...</text>
 								<event>
-									<text>The Engi thank you for deleting the virus, and jump away. They offer a unique ship augmentation as a reward.</text>
+									<text>Os Engi agradecem por você ter deletado o vírus e vão embora. Eles oferecem uma melhoria única como recompensa.</text>
 									<augment name="DRONE_SPEED"/>
 								</event>
 							</choice>
@@ -768,19 +768,19 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 				</event>
 			</choice>
 			<choice req="hacking" lvl="3" max_group="0" hidden="true">
-				<text>[Advanced Hacking] Reprogram the virus.</text>
+				<text>[Hacking Avançado] Reprogramar o vírus.</text>
 				<event>
-					<text>You proceed to interface with the virus and optimize its repair and benevolence routines.</text>
+					<text>Você interfere com o vírus para otimizar suas rotinas benéficas e de reparação.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>Continuar...</text>
 						<event>
-							<text>After a few minutes, the virus "sees the light" and integrates itself in a positive manner with the computer society on your ship, repairing your hull and attempting to optimize your reactor.</text>
+							<text>Após alguns minutos, o vírus "enxerga a luz" e se acopla de uma maneira positiva no sistema computacional da sua nave, reparando a fuselagem e tentando otimizar o reator.</text>
 							<damage amount="-30"/>
 							<upgrade amount="1" system="reactor"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>Continuar...</text>
 								<event>
-									<text>The Engi thank you for deleting the virus, and jump away. They offer a unique ship augmentation as a reward.</text>
+									<text>Os Engi agradecem por você ter deletado o vírus e vão embora. Eles oferecem uma melhoria única como recompensa.</text>
 									<augment name="DRONE_SPEED"/>
 								</event>
 							</choice>
@@ -789,21 +789,21 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 				</event>
 			</choice>
 			<choice req="anaerobic" hidden="true">
-				<text>[Lanius Crew] Your Lanius crewmember gestures frantically.</text>
+				<text>[Tripulante Lanius] Seu tripulante Lanius gesticula freneticamente.</text>
 				<event>
-					<text>Oddly enough, the Lanius seems aware of which computer the virus is present in, and proceeds to... digest the terminal. There is a burst of O2, and the Engi ship powers down its weapons, no longer sensing the virus on board. The Engi send some parts over to repair your damaged computer, along with a unique ship augmentation as a reward for terminating the virus.</text>
+					<text>Estranhamente, o Lanius parece saber em qual computador o vírus está, e prossegue para... digerir o terminal. Há uma liberação de O2, e os Engi desligam suas armas, já que não mais sentem o vírus a bordo. Eles enviam algumas peças para consertar o computador danificado, junto com uma melhoria única como recompensa por você ter eliminado o vírus.</text>
 					<autoReward level="MEDIUM">scrap_only</autoReward>
 					<augment name="DRONE_SPEED"/>
 				</event>
 			</choice>
 			<choice req="engi" hidden="true">
-				<text>[Engi Crew] Have your Engi crewmember negotiate with the Engi ship.</text>
+				<text>[Tripulante Engi] Pedir ao seu tripulante Engi para negociar com a nave Engi.</text>
 				<event>
-					<text>As the Engi attempts to contact the vessel and negotiate, your Engi crewmember suddenly dissolves into nanites - the virus has murdered again! Detecting activity on board your ship, the Engi vessel opens fire!</text>
+					<text>Enquanto seu tripulante tenta entrar em contato com a nave Engi para negociar, ele se dissolve em nano-robôs. O vírus matou de novo! Detectando atividade suspeita, a nave Engi começa a atirar!</text>
 					<ship load="ENGI_VIRUS_SHIP_ALT" hostile="true"/>
 					<removeCrew class="engi">
 						<clone>false</clone>
-						<text>The virus appears to have disrupted your clone bay's capability to revive the lost crewmember!</text>
+						<text>O vírus parece ter desordenado a capacidade da sua sala de clonagem de reviver o tripulante perdido!</text>
 					</removeCrew>
 				</event>
 			</choice>
@@ -812,13 +812,13 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 </event>
 <ship name="ENGI_VIRUS_SHIP" auto_blueprint="SHIPS_CIRCLE">
 	<destroyed>
-		<text>With the ship destroyed, you detect that the virus has abandoned your ship and disappeared somewhere within the systems of the wreckage. It will likely infect whatever Engi ship passes next, but your mission is too vital to risk re-infection by stopping it.</text>
+		<text>Com a nave Engi destruída, você detecta que o vírus abandonou sua nave e desapareceu por entre os destroços dos sistemas da nava Engi. Provavelmente ele irá infectar a próxima nave Engi que passar por aqui, mas sua missão é muito importante para arriscar-se ser infectado de novo.</text>
 		<autoReward level="MEDIUM">standard</autoReward>
 		<status type="clear" target="player" system="engines" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
 	</destroyed>
 	<deadCrew>
-		<text>With the Engi crew dead, you detect that the virus has abandoned your ship and disappeared somewhere within the systems of Engi vessel. It will likely infect whatever Engi ship passes next, but your mission is too vital to risk re-infection by stopping it.</text>
+		<text>Com a tripulação Engi morta, você detecta que o vírus abandonou sua nave e desapareceu por entre os sistemas da nave Engi. Provavelmente ele irá infectar a próxima nave Engi que passar por aqui, mas sua missão é muito importante para arriscar-se ser infectado de novo.</text>
 		<autoReward level="MEDIUM">standard</autoReward>
 		<status type="clear" target="player" system="engines" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -826,23 +826,23 @@ Idea - make an event where you're fighting to save an engi ship but theres manti
 </ship>
 <ship name="ENGI_VIRUS_SHIP_ALT" auto_blueprint="SHIPS_CIRCLE">
 	<destroyed>
-		<text>With the ship destroyed, you scrap it and prepare to jump away.</text>
+		<text>Com a nave destruída, você coleta o que pode e se prepara para saltar.</text>
 		<autoReward level="MEDIUM">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>Continuar...</text>
 			<event load="ENGI_VIRUS_REBORN"/>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With all the Engi dead, you take what you can and prepare to jump away.</text>
+		<text>Com a tripulação Engi morta, você coleta o que pode e se prepara para saltar.</text>
 		<autoReward level="MEDIUM">standard</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>Continuar...</text>
 			<event load="ENGI_VIRUS_REBORN"/>
 		</choice>
 	</deadCrew>
 </ship>
 <event name="ENGI_VIRUS_REBORN">
-	<text>To your surprise your Engi crewmember reforms. It looks as if the virus reconstituted, repurposed, and reprogrammed the Engi host and wants to travel with you... and it seems to have learned a great deal from its time on your ship.</text>
+	<text>Para sua surpresa, seu tripulante Engi se restaura. Parece que o vírus reconstruiu e reprogramou seu hospedeiro Engi e deseja viajar com você... também parece ter aprendido várias coisas no tempo que passou na sua nave.</text>
 	<crewMember amount="1" class="engi" all_skills="2">Virus</crewMember>
 </event>
